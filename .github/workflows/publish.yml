@@ -27,7 +27,7 @@ jobs:
       # Step 2.4: Install R packages required
       - name: Install R packages
         run: |
-          Rscript -e "install.packages(c('yaml', 'tibble', 'dplyr', 'purrr'))"
+          Rscript -e "install.packages(c('yaml', 'tibble', 'dplyr', 'purrr', 'DT'))"
 
       # Step 2.5: Install Quarto
       - name: Install Quarto
