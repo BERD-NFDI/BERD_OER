@@ -1,0 +1,15 @@
+{
+  "hash": "9e952c4dc886961471a2334db62d5215",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tools for Software & Data Management\"\n---\n\nEfficient management of software, code, and research data is essential for reliable and reproducible research. Using the right tools helps organize workflows, document analyses, track changes, and share data effectively, making research more transparent, collaborative, and easier to validate.\n\n### Statistical Practice {#Tools}\n\nApplying sound statistical workflows ensures that analyses are accurate, interpretable, and reproducible. These practices, including effective data handling, visualization, and leveraging coding tools, can be further developed in the BERD Academy course on statistical practice.\n\n<!-- \n- [Making Data Work: Tools for Better Statistical Practice - BERD Academy Course Information & Registration Page](https://www.berd-nfdi.de/berd-academy/making-data-work-tools-for-better-statistical-practice/)\n- [The missing semester of you CS education](https://missing.csail.mit.edu/)\n\n::: {.callout-note icon=false}\n## Further Keywords\nthinkCausal, RAINER, OneTutor, xmap, visualization of multiverse analysis, decision database, OCR recommender, FAIRplexica, RESQUE\n:::\n\n\n-->\n\n#### AI Tools in Research {#AITools}\nA variety of AI tools are available to support research activities, including data analysis, visualization, and interpretation. These tools, many of which are generative as LLMs, can help researchers to automate repetitive tasks, identify patterns in data, and generate new insights.\n\n- [How to get the best of AI tools in Research - GitHub Repository](https://github.com/BERD-NFDI/AI-Tools-in-Research-BERD)\n- [How to get the best of AI tools in Research - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/ai-tools-research-2025/)\n\n::: {.callout-note icon=false}\n## Further Keywords\nLarge Language Models (LLMs), Generative Artificial Intelligence (AI), prompting techniques, literature review & management, data collection & analysis, communicating results, ethical considerations, semantic tools, visual search tools, data protection, biases\n:::\n\n<span class=\"tag tag-data\"># text</span>   <span class=\"tag tag-type\"># BERD Academy module</span>   <span class=\"tag tag-name\"># How to get the best of AI tools in Research</span>   <span class=\"tag tag-year\"># 2025</span>   <span class=\"tag tag-material\"># slides</span> <span class=\"tag tag-material\"># GitHub repository</span> ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

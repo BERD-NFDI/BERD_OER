@@ -1,0 +1,15 @@
+{
+  "hash": "85b0fc09709c4ef0174932fd248f338b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Reproducibility\"\n---\n\nReproducibility ensures that research results can be independently verified and trusted. By carefully documenting methods, managing code and data, and using consistent workflows, researchers make it possible for others, or themselves in the future, to replicate analyses and validate findings.\n\n- [Make your research reproducible - a hands-on course - GitHub Repository](https://github.com/BERD-NFDI/BERD-reproducible-research-course)\n- [Make your research reproducible - a hands-on course - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/reproducibility-2025/)\n\n::: {.callout-note icon=false}\n## Further Keywords\nFAIR and reproducible research, team projects, organization, version control with Git, stable computing environments, automation, publication platforms, licensing, open science, R, Python, publishing\n:::\n\n   <span class=\"tag tag-type\"># BERD Academy module</span>   <span class=\"tag tag-name\"># Make your research reproducible – a hands-on course</span>   <span class=\"tag tag-year\"># 2023</span> <span class=\"tag tag-year\"># 2024</span> <span class=\"tag tag-year\"># 2025</span>   <span class=\"tag tag-material\"># GitHub repository</span> <span class=\"tag tag-material\"># quarto markdown</span> ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "26a14f8ee838e5639b05ce179b828993",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"R\"\n---\n\n<!-- TO DO: add info on R Studio -->\n\nR is a programming language and environment designed for statistical computing and data analysis. It provides a wide range of tools for data manipulation, visualization, and modelling, and is widely used in research and applied statistics. Its extensive package ecosystem and reproducible workflow support make R a central tool for implementing and communicating statistical methods.\n\n#### Data Science with R {#DSwithR}\n\n- [Data Science with R - BERD Academy Course Information & Registration Page](https://www.berd-nfdi.de/berd-academy/soon-data-science-with-r/)\n\n::: {.callout-note icon=false}\n## Further Keywords\ndata manipulation, data visualization, data management, subsets & aggregation, advanced programming, testing, ggplot2\n:::\n\n   <span class=\"tag tag-type\"># BERD Academy course</span> <span class=\"tag tag-type\"># self-paced</span>   <span class=\"tag tag-name\"># Data Science with R</span>       ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

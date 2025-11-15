@@ -1,0 +1,71 @@
+{
+  "00_intro/intro.qmd": {
+    "intro.html": "468681cc"
+  },
+  "00_intro/02_berd_nfdi.qmd": {
+    "02_berd_nfdi.html": "d5ff1be6"
+  },
+  "02_statistics/00_stats_intro.qmd": {
+    "00_stats_intro.html": "90f1e0d1"
+  },
+  "02_statistics/04_exp_design.qmd": {
+    "04_exp_design.html": "6e857884"
+  },
+  "02_statistics/01_descriptive.qmd": {
+    "01_descriptive.html": "1a738c36"
+  },
+  "02_statistics/03_regression.qmd": {
+    "03_regression.html": "259e40c9"
+  },
+  "02_statistics/05_pitfalls.qmd": {
+    "05_pitfalls.html": "18f7ed8f"
+  },
+  "02_statistics/02_inferential.qmd": {
+    "02_inferential.html": "387866ae"
+  },
+  "04_code/00_tools.qmd": {
+    "00_tools.html": "4b729d7d"
+  },
+  "04_code/01_platforms.qmd": {
+    "01_platforms.html": "5e1386af"
+  },
+  "04_code/03_python.qmd": {
+    "03_python.html": "c2bdefe8"
+  },
+  "04_code/02_R.qmd": {
+    "02_R.html": "ed6a8a86"
+  },
+  "404.qmd": {
+    "404.html": "9f2d964d"
+  },
+  "01_data_management/00_data_intro.qmd": {
+    "00_data_intro.html": "a5193b0d"
+  },
+  "01_data_management/01_wrangling.qmd": {
+    "01_wrangling.html": "cd6df941"
+  },
+  "05_reproducibility/00_repr_intro.qmd": {
+    "00_repr_intro.html": "c3b615dc"
+  },
+  "05_reproducibility/03_open.qmd": {
+    "03_open.html": "a3678a5c"
+  },
+  "03_ml/00_ml_intro.qmd": {
+    "00_ml_intro.html": "46ad11b9"
+  },
+  "03_ml/02_nlp.qmd": {
+    "02_nlp.html": "877722e9"
+  },
+  "03_ml/01_dl.qmd": {
+    "01_dl.html": "db732406"
+  },
+  "01_data_management/01_wrangling.knit.md": {
+    "01_wrangling.knit.html": "1f30ab12"
+  },
+  "index.qmd": {
+    "index.html": "1639df26"
+  },
+  "03_ml/03_trustworthy.qmd": {
+    "03_trustworthy.html": "ffbc86f5"
+  }
+}
