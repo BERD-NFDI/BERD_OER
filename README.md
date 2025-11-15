@@ -1,5 +1,7 @@
 # BERD Academy Open Educational Resources
 
+Link to Website: https://berd-nfdi.github.io/BERD_OER/
+
 This site brings together materials from various sources to support learning, teaching, and exploring data-driven methods.
 
 Workflow: When adding new material, please make sure that...
