@@ -24,8 +24,12 @@ jobs:
       # Step 2.3: Install KnitR
       - name: Install knitr
         run: Rscript -e "install.packages('knitr')"
+      # Step 2.4: Install R packages required
+      - name: Install R packages
+        run: |
+          Rscript -e "install.packages(c('yaml', 'tibble', 'dplyr', 'purrr'))"
 
-      # Step 2.4: Install Quarto
+      # Step 2.5: Install Quarto
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
