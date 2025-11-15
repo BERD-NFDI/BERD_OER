@@ -14,11 +14,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Library Set Up
       # Step 2.1: Install R
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
+      # Step 2.2: Install R Markdown
+      - name: Install rmarkdown
+        uses: Rscript -e "install.packages('rmarkdown')"
+      # Step 2.3: Install KnitR
+      - name: Install knitr
+        uses: Rscript -e "install.packages('knitr')"
 
-      # Step 2.2: Install Quarto
+      # Step 2.4: Install Quarto
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
