@@ -1,0 +1,38 @@
+---
+title: "Python"
+---
+
+<!-- TO DO: add info on Jupyter Notebooks / Anaconda -->
+
+Python is a high-level, general-purpose programming language widely used in data analysis, scientific computing, and software development. Its readability, flexibility, and extensive ecosystem make it a standard tool for implementing computational methods and workflows across disciplines.
+
+<!--
+- [Machine Learning in Python - User Guide](https://scikit-learn.org/stable/user_guide.html)
+- [Machine Learning in Python - Paper](https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+
+#### Data Science with Python {#DSwithPython}
+
+- [Data Science with Python - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/data-science-with-python/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+basic scripting, functions and packages, pandas, data exploration, visualization, matplotlib, advanced plotting, numpy, scipy, web documents, libraries, scikit-learn
+:::
+
+```{r tag_DS_Python, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+``` 
+
+#### Deep Learning with Python {#DLwithPython}
+
+- [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+- [PyTorch Tutorial: How to Develop Deep Learning Models with Python](https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/)
+
+info on kaggle, see section on methods in DL for kaggle guide in the [Deep Learning section](../03_ml/01_dl.qmd).
+
+- [Image Processing with Python](https://datacarpentry.org/image-processing/)
+
+- [Lightning-Hydra-Template - GitHub Repository](https://github.com/ashleve/lightning-hydra-template)
+- [Pyro - Deep Universal Probabilistic Programming](https://pyro.ai/)
+
+-->

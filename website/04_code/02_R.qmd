@@ -1,0 +1,25 @@
+---
+title: "R"
+---
+
+<!-- TO DO: add info on R Studio -->
+<!-- TO DO: add cheat sheet -->
+<!-- TO DO: add mlr3 -->
+<!-- TO DO: connect to statistics section -->
+
+R is a programming language and environment designed for statistical computing and data analysis. It provides a wide range of tools for data manipulation, visualization, and modelling, and is widely used in research and applied statistics. Its extensive package ecosystem and reproducible workflow support make R a central tool for implementing and communicating statistical methods.
+
+<!--
+#### Data Science with R {#DSwithR}
+
+ - [Data Science with R - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/soon-data-science-with-r/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+data manipulation, data visualization, data management, subsets & aggregation, advanced programming, testing, ggplot2
+:::
+
+```{r tag_DS_R, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("DS_R")
+``` -->

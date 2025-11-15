@@ -1,0 +1,23 @@
+---
+title: "Data Wrangling"
+---
+
+Data wrangling is the process of cleaning, transforming, and organizing raw data to prepare it for analysis. How data is processed at this stage directly affects the performance of subsequent analyses, highlighting the importance of careful and deliberate handling to support reliable and meaningful results. Effective wrangling involves standardizing formats, addressing missing or inconsistent values, and structuring data for specific analytical tasks.
+
+### Working with PDFs {#PDFs}
+
+The Portable Document Format (PDF) is a common file format used for sharing documents. However, extracting data from PDFs can be challenging due to their complex structure. This section covers techniques and tools for converting PDFs into usable data formats.
+
+- [Turning PDFs into Research Data - GitHub Repository](https://berd-nfdi.github.io/turning-pdfs-into-research-data.io/)
+- [Turning PDFs into Research Data (2025) - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/pdfs-2025/)
+- [Turning PDFs into Research Data (2024) - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/pdfs-2024/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+web scraping, HTML, Network Inspector Tool, text extraction, OCR, AI for data extraction, NEE, Google Colab
+:::
+
+```{r tag_PDFs, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("PDFs")
+```

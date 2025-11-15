@@ -1,0 +1,121 @@
+---
+title: "Welcome!"
+# listing: 
+#     type: table
+#     sort: "date"
+#     contents:
+#         - tags.yaml
+#     filter-ui: true
+---
+
+Welcome to our open educational resources (OER) hub! This site brings together materials from various sources to support learning, teaching, and exploring data-driven methods. Whether you’re joining for the first time or coming back to revisit a topic, we’re glad you’re here!
+
+## How To
+
+This site is designed for easy navigation across a growing collection of learning materials. You can browse by topic, explore materials from specific events, or filter content by data type or format. Whether you're preparing for a workshop, reviewing past content, or looking for examples and code, this site has you covered.
+
+All resources on this site are tagged with keywords indicating, if applicable, the event they belong to, the data type they cover, and the material format. Use these tags to filter or combine search queries. You can also use the **search bar at the top right** to find specific topics or keywords.
+
+If you’re looking to go beyond self-study, join our interactive learning sessions! Discover our [upcoming workshops and events](https://www.berd-nfdi.de/berd-academy/) hosted by the BERD Academy, or learn more about [the BERD@NFDI consortium and the NFDI initiative](00_intro/02_berd_nfdi.qmd).
+
+### Searching for content?
+
+Not sure what you’re looking for yet? Below, you’ll find a list of events, data types, and material types available on this site. Use these tags to browse or to guide your search.
+
+```{r tag_list, results = 'asis', echo = FALSE, message = FALSE, warning = FALSE}
+library(yaml)
+library(tibble)
+library(dplyr)
+library(purrr)
+
+tags_data <- read_yaml("tags.yaml")
+
+extract_unique <- function(field) {
+  tags_data %>%
+    map(field) %>%
+    flatten_chr() %>%
+    unique() %>%
+    discard(~ .x == "")
+}
+
+type_tags <- extract_unique("Type")
+name_tags <- extract_unique("Name")
+data_tags <- extract_unique("Data")
+year_tags <- extract_unique("Year")
+material_tags <- extract_unique("Material")
+
+#type_links <- list(
+#  "Turning PDFs into Research Data" = "https://www.berd-nfdi.de/berd-academy/pdfs-2025/",
+#  "Workshop 2025" = "https://www.berd-nfdi.de/berd-academy/pdfs-2025/"
+#)
+
+data_links <- list(
+  "tabular" = "01_data_management/00_data_intro.qmd#tabular",
+  "text" = "01_data_management/00_data_intro.qmd#text",
+  "visual" = "01_data_management/00_data_intro.qmd#visual",
+  "time series" = "01_data_management/00_data_intro.qmd#longitudinal"
+)
+
+make_spans <- function(tags, class, link_map = NULL) {
+  sapply(tags, function(tag) {
+    url <- if (!is.null(link_map) && !is.null(link_map[[tag]])) link_map[[tag]] else NULL
+    if (!is.null(url)) {
+      sprintf("<a href=\"%s\" class=\"tag tag-%s\"># %s</a>", url, class, tag)
+    } else {
+      sprintf("<span class=\"tag tag-%s\"># %s</span>", class, tag)
+    }
+  }) %>% paste(collapse = " ")
+}
+
+cat("#### Data Types\n\n")
+cat(make_spans(data_tags, "data", data_links), "\n\n")
+```
+
+[Data Types Overview](01_data_management/00_data_intro.qmd)
+
+```{r tag_list2, results = 'asis', echo = FALSE, message = FALSE, warning = FALSE}
+cat("#### Resource Types\n\n")
+cat(make_spans(type_tags, "type"), "\n\n")#, type_links), "\n\n")
+
+# cat("#### Resource Names\n\n")
+# cat(make_spans(name_tags, "name"), "\n\n")
+
+# cat("#### Years\n\n")
+# cat(make_spans(year_tags, "year"), "\n\n")
+
+cat("#### Material Types\n\n")
+cat(make_spans(material_tags, "material"), "\n\n")
+```
+
+
+## Tags Overview
+
+```{r new_tags_table, results = 'asis', echo = FALSE, message = FALSE, warning = FALSE}
+library(yaml)
+library(dplyr)
+library(tibble)
+library(DT)
+
+tags <- read_yaml("tags.yaml")
+
+tags_df <- bind_rows(lapply(tags, function(x) {
+  tibble(
+    Topic = x$file %||% NA,
+    Section = x$Section %||% NA,
+    Data = paste(x$Data, collapse = ", "),
+    Type = paste(x$Type, collapse = ", "),
+    Name = paste(x$Name, collapse = ", "),
+    Year = paste(x$Year, collapse = ", "),
+    Material = paste(x$Material, collapse = ", ")
+  )
+}))
+
+datatable(
+  tags_df,
+  options = list(pageLength = 6, autoWidth = TRUE),
+  filter = "top",
+  caption = "Tag Overview",
+  escape = FALSE
+)
+```
+

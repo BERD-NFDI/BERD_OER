@@ -1,0 +1,389 @@
+#----------------------------------------
+# TAG STRUCTURE FOR EDUCATIONAL MATERIALS
+#----------------------------------------
+# ID:       Unique identifier for the tag
+# file:     Link to the main section of the material
+# Section:  Link to the specific section of the material
+# Data:     Type of data it can be used with (e.g., tabular, text, images)
+# Type:     Type of course (e.g., lecture, BERD Academy module, self-paced)
+# Name:     Name of the course or lecture where the material is from
+# Year:     Year(s) the material was created or used
+# Material: Type of material available (e.g., slides, notebook, videos)
+
+# When adding new tags, ensure to follow 
+# the existing structure and formatting.
+# Use ID to create tags on respective page.
+# Sorting of items here is default sorting in 
+# table - please sort according to general
+# page structure.
+#----------------------------------------
+
+- ID: "ImageData"
+  file: "<a href='../01_data_management/00_data_intro.html'>Data Types</a>"
+  Section: "<a href='../01_data_management/00_data_intro.html#visual'>Visual Data</a>"
+  Data: ["visual"]
+  Type: ["paper"]
+  Name: ["Common Limitations of Image Processing Metrics: A Picture Story"]
+  Year: ["2023"]
+  Material: ["paper"]
+
+- ID: "NetworkData"
+  file: "<a href='../01_data_management/00_data_intro.html'>Data Types</a>"
+  Section: "<a href='../01_data_management/00_data_intro.html#network_data'>Network Data</a>"
+  Data: ["network"]
+  Type: ["BERD Academy module"]
+  Name: ["A Connected World: Data Analysis for Real-World Network Data"]
+  Year: ["2023"]
+  Material: ["slides", "R script"]
+
+- ID: "MobileData"
+  file: "<a href='../01_data_management/00_data_intro.html'>Data Types</a>"
+  Section: "<a href='../01_data_management/00_data_intro.html#mobile_data'>Mobile Phone Data</a>"
+  Data: ["mobile"]
+  Type: ["BERD Academy module"]
+  Name: ["Data Challenge: Mobile Phone Data"]
+  Year: ["2024"]
+  Material: ["slides"]
+
+- ID: "PDFs"
+  file: "<a href='../01_data_management/01_wrangling.html'>Data Wrangling</a>"
+  Section: "<a href='../01_data_management/01_wrangling.html#PDFs'>PDFs</a>"
+  Data: ["tabular", "text"]
+  Type: ["BERD Academy module"]
+  Name: ["Turning PDFs into Research Data"]
+  Year: ["2024", "2025"]
+  Material: ["slides", "jupyter notebook"]
+
+- ID: "Microsim"
+  file: "<a href='../02_statistics/00_stats_intro.html'>Statistics</a>"
+  Section: "<a href='../02_statistics/00_stats_intro.html#official_stats'>Official Statistics</a>"
+  Data: []
+  Type: ["BERD Academy module"]
+  Name: ["Microsimulation & Machine Learning with Official Statistics Data"]
+  Year: ["2023"]
+  Material: ["slides", "quarto markdown"]
+
+- ID: "Intro-ML" 
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html#Learning-Paradigms'>Introduction to ML</a>"
+  Data: ["tabular", "text"]
+  Type: ["LMU lecture", "self-paced"]
+  Name: ["I2ML"]
+  Year: ["2022"]
+  Material: ["slides", "jupyter notebook", "videos"]
+
+- ID: "Self-Supervised"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html#Learning-Paradigms'>Introduction to ML</a>"
+  Data: ["images", "text", "graphs"]
+  Type: ["self-paced"]
+  Name: ["Self-supervised Learning: Generative or Contrastive"]
+  Year: ["2021"]
+  Material: ["paper"]
+
+- ID: "RL"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html#RL'>Reinforcement Learning</a>"
+  Data: ["tabular"]
+  Type: ["BERD Academy module"]
+  Name: ["Reinforcement Learning for Business, Economics, and Social Sciences"]
+  Year: ["2025"]
+  Material: ["slides"]
+
+# - ID: "AutoML"
+#   file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+#   Section: "<a href='../03_ml/00_ml_intro.html#AutoML'>AutoML</a>"
+#   Data: ["tabular"]
+#   Type: ["BERD Academy module", "self-paced"]
+#   Name: ["AutoML - Automated Machine Learning"]
+#   Year: []
+#   Material: []
+# --> no material published
+
+- ID: "Intro-DL"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Introduction-DL'>Introduction to DL</a>"
+  Data: ["images"]
+  Type: ["Stanford lecture", "self-paced"]
+  Name: ["Introduction to Deep Learning (Stanford CS231N)"]
+  Year: ["2017"]
+  Material: ["videos"]
+
+- ID: "Intro-DL-TUM"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Introduction-DL'>Introduction to DL</a>"
+  Data: ["images", "text", "audio"]
+  Type: ["TUM lecture"]
+  Name: ["I2DL"]
+  Year: ["2025"]
+  Material: ["slides"]  
+
+- ID: "Hyperparam"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Methods-DL'>Methods in DL</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Tune: Scalable Hyperparameter Tuning"]
+  Year: ["2025"]
+  Material: ["slides"]
+
+- ID: "PyTorchLearningRate"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Methods-DL'>Methods in DL</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Guide to Pytorch Learning Rate Scheduling"]
+  Year: ["2020"]
+  Material: ["jupyter notebook"]
+
+- ID: "VisualCNN"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Architectures-DL'>Architectures in DL</a>"
+  Data: ["images"]
+  Type: ["self-paced"]
+  Name: ["An Interactive Node-Link Visualization of Convolutional Neural Networks"]
+  Year: ["2015"]
+  Material: ["paper", "slides", "videos"] 
+
+- ID: "Intro-Transformer"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#Architectures-DL'>Architectures in DL</a>"
+  Data: ["images", "text", "audio"]
+  Type: ["self-paced"]
+  Name: ["Introduction to the Transformer Architecture"]
+  Year: ["2022"]
+  Material: ["slides", "videos"]
+
+- ID: "Diffusion"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#ModelClasses-DL'>Model Classes in DL</a>"
+  Data: ["images"]
+  Type: ["self-paced"]
+  Name: ["What are Diffusion Models?"]
+  Year: ["2025"]
+  Material: ["page"] 
+
+- ID: "LaplaceRedux"
+  file: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html#ModelClasses-DL'>Model Classes in DL</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Laplace Redux - Effortless Bayesian Deep Learning"]
+  Year: ["2025"]
+  Material: ["slides"]
+
+- ID: "IntroNLP"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html'>Introduction to NLP</a>"
+  Data: ["text"]
+  Type: ["Stanford lecture", "self-paced"]
+  Name: ["NLP with Deep Learning (Stanford CS224N)"]
+  Year: ["2021"]
+  Material: ["videos"] 
+
+- ID: "DL4NLP"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html'>DL4NLP</a>"
+  Data: ["text"]
+  Type: ["LMU lecture", "self-paced"]
+  Name: ["Deep Learning for NLP"]
+  Year: ["2022"]
+  Material: ["slides"]
+
+- ID: "LLMs"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html'>LLM</a>"
+  Data: ["text"]
+  Type: ["Stanford lecture"]
+  Name: ["Understanding and developing large language models (Stanford CS324)"]
+  Year: ["2022"]
+  Material: ["page"]
+
+- ID: "TransformerBlog"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html'>Transformer</a>"
+  Data: ["text"]
+  Type: ["self-paced"]
+  Name: ["The Illustrated Transformer"]
+  Year: ["2018"]
+  Material: ["page", "videos"]
+
+- ID: "HuggingFace"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html#HuggingFace'>Hugging Face</a>"
+  Data: ["text"]
+  Type: ["self-paced"]
+  Name: ["NLP in the huggingface ecosystem"]
+  Year: ["2025"]
+  Material: ["page", "videos"]
+
+# - ID: "AL4NLP"
+#   file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+#   Section: "<a href='../03_ml/02_nlp.html'>AL4NLP</a>"
+#   Data: ["text"]
+#   Type: ["BERD Academy module"]
+#   Name: ["Deep Learning with Humans-In-The-Loop: Active Learning for NLP"]
+#   Year: ["2024", "2025"]
+#   Material: []
+# --> no material published
+
+- ID: "UQ"
+  file: "<a href='../03_ml/03_trustworthy.html'>Trustworthy ML</a>"
+  Section: "<a href='../03_ml/03_trustworthy.html#UQ'>Uncertainty Quantification</a>"
+  Data: []
+  Type: ["talk"]
+  Name: ["Aleatoric and Epistemic Uncertainty in Machine Learning"]
+  Year: ["2021"]
+  Material: ["slides", "paper"]
+
+- ID: "XAI"
+  file: "<a href='../03_ml/03_trustworthy.html'>Trustworthy ML</a>"
+  Section: "<a href='../03_ml/03_trustworthy.html#XAI'>Explainability</a>"
+  Data: []
+  Type: ["paper"]
+  Name: ["Explainable Artificial Intelligence (XAI)"]
+  Year: ["2019"]
+  Material: ["paper"]
+
+# - ID: "DS_R"
+#   file: "<a href='../04_code/02_R.html'>R</a>"
+#   Section: "<a href='../04_code/02_R.html#DSwithR'>Data Science with R</a>"
+#   Data: []
+#   Type: ["BERD Academy module", "self-paced"]
+#   Name: ["Data Science with R"]
+#   Year: []
+#   Material: []
+# --> no material published
+
+# - ID: "DS_Python"
+#   file: "<a href='../04_code/03_python.html'>Python</a>"
+#   Section: "<a href='../04_code/03_python.html#DSwithPython'>Data Science with Python</a>"
+#   Data: []
+#   Type: ["BERD Academy module", "self-paced"]
+#   Name: ["Data Science with Python"]
+#   Year: []
+#   Material: []
+# --> no material published
+
+# - ID: "StatTools"
+#   file: "<a href='../04_code/00_tools.html'>Tools</a>"
+#   Section: "<a href='../04_code/00_tools.html#Tools'>Tools for Statistical Practice</a>"
+#   Data: []
+#   Type: ["BERD Academy module"]
+#   Name: ["Making Data Work: Tools for Better Statistical Practice"]
+#   Year: ["2025"]
+#   Material: []
+# --> no material published
+
+- ID: "AITools"
+  file: "<a href='../04_code/00_tools.html'>Tools</a>"
+  Section: "<a href='../04_code/00_tools.html#AITools'>AI Tools</a>"
+  Data: ["text"]
+  Type: ["BERD Academy module"]
+  Name: ["How to get the best of AI tools in Research"]
+  Year: ["2025"]
+  Material: ["slides", "GitHub repository"]
+
+- ID: "ReproHandsOn"
+  file: "<a href='../05_reproducibility/00_repr_intro.html'>Research Practices</a>"
+  Section: "<a href='../05_reproducibility/00_repr_intro.html'>Reproducibility</a>"
+  Data: []
+  Type: ["BERD Academy module"]
+  Name: ["Make your research reproducible – a hands-on course"]
+  Year: ["2023", "2024", "2025"]
+  Material: ["GitHub repository", "quarto markdown"]
+
+
+
+# clean below -----------------------------
+   
+- ID: "ml1"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html'>Introduction to ML</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods"]
+  Year: ["2021"]
+  Material: ["paper", "slides"]
+
+- ID: "py"
+  file: "<a href='../04_code/03_python.html'>Python</a>"
+  Section: "<a href='../04_code/03_python.html#DSwithPython'>Data Science with Python</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Image Processing with Python"]
+  Year: ["2023"]
+  Material: ["slides"]
+
+- ID: "nlp1"
+  file: "<a href='../03_ml/02_nlp.html'>NLP</a>"
+  Section: "<a href='../03_ml/02_nlp.html'>Huggingface NLP</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["NLP in the huggingface ecosystem"]
+  Year: ["2025"]
+  Material: ["slides", "videos"]
+
+
+- ID: "ai2"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html#AutoML'>AutoML</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["AutoML - Automated Machine Learning"]
+  Year: ["2022"]
+  Material: ["slides", "videos"] 
+
+- ID: "cs"
+  file: "<a href='../04_code/00_tools.html'>Computational Tools</a>"
+  Section: "<a href='../04_code/00_tools.html'>Computer-Related Skills</a>"
+  Data: []
+  Type: ["MIT lecture"]
+  Name: ["The missing semester of you CS education"]
+  Year: ["2020"]
+  Material: ["slides", "videos"]      
+
+- ID: "aipy"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/00_ml_intro.html'>Introduction to ML</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Machine Learning in Python"]
+  Year: ["2025"]
+  Material: ["slides"]
+
+- ID: "pytorch"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Deep Learning with PyTorch: A 60 Minute Blitz"]
+  Year: ["2019"]
+  Material: ["slides", "videos"]
+
+- ID: "pytorch1"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["PyTorch Tutorial: How to Develop Deep Learning Models with Python"]
+  Year: ["2023"]
+  Material: ["page"]  
+
+- ID: "pytorch3"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Data: []
+  Type: ["self-paced"]
+  Name: ["Lightning-Hydra-Template"]
+  Year: ["2023"]
+  Material: ["GitHub repository"]
+
+- ID: "ai6"
+  file: "<a href='../03_ml/00_ml_intro.html'>Machine Learning</a>"
+  Section: "<a href='../03_ml/01_dl.html'>Deep Learning</a>"
+  Data: []
+  Type: ["Python library"]
+  Name: ["Pyro - Deep Universal Probabilistic Programming"]
+  Year: ["2025"]
+  Material: ["slides"]                          

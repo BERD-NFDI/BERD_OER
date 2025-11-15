@@ -1,0 +1,37 @@
+---
+title: "Statistics"
+---
+
+Statistics and Machine Learning are closely connected fields that both aim to learn from data. While statistics traditionally focuses on understanding uncertainty, testing hypotheses, and explaining relationships, machine learning emphasizes prediction, pattern recognition, and handling large, complex datasets. Many machine learning methods build directly on statistical ideas, such as regression, classification, and probability models. At the same time, statistical thinking helps ensure that machine learning results are robust, interpretable, and not driven by random noise. Together, these perspectives form a complementary toolkit for modern data science.
+
+#### Descriptive Statistics {#descriptives}
+Descriptive statistics summarize and present data in a meaningful way. They include measures such as averages, percentages, or visualizations like histograms and boxplots. By condensing large amounts of information into clear numbers and graphics, descriptive statistics help us understand the main patterns and characteristics of data.
+
+#### Statistical Inference {#inference}
+While descriptives describe the data at hand, statistical inference goes a step further: it allows us to draw conclusions about larger populations based on samples. Methods such as confidence intervals and hypothesis tests help us quantify uncertainty and assess whether observed patterns are likely due to chance or reflect underlying relationships.
+
+#### Regression Analysis {#regression}
+Regression is a powerful tool for studying relationships between variables. It can be used to explain outcomes, make predictions, and identify important influencing factors. From simple linear regression to more complex models, regression provides a framework for quantifying associations and controlling for multiple variables at once.
+
+#### Experimental Design {#expdesign}
+Well-designed experiments are crucial for drawing reliable conclusions. By carefully planning how data are collected - for example, through randomization, control groups, and replication - researchers can reduce bias and increase the validity of their findings. Good experimental design ensures that causal effects can be identified, not just correlations.
+
+#### Common Pitfalls in Statistical Analysis {#pitfalls}
+Statistical analyses are powerful, but they can also be misused. Common pitfalls include confusing correlation with causation, overinterpreting small sample sizes, p-hacking, or ignoring the assumptions behind statistical methods. Recognizing these challenges is an important step toward conducting and interpreting research responsibly.
+
+#### Official Statistics {#official_stats}
+<!-- TO DO: consider whether to move this course somewhere else (ML section) -->
+Official statistics are produced by government agencies and international organizations to provide reliable, standardized data on various aspects of society, economy, and environment. They play a key role in informing public policy, research, and public understanding. Examples include census data, labor market statistics, and health indicators.
+
+- [Microsimulation & Machine Learning with Official Statistics Data - GitHub Repository](https://github.com/BERD-NFDI/microsimulation-machine-learning-os/tree/main)
+- [Microsimulation & Machine Learning with Official Statistics Data - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/microsimulation-machine-learning-with-official-statistics-data/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+microsimulation, official statistics, static ageing techniques, dynamic ageing, MikroSim, Big Data, primary data, secondary data, consumer price index, web based statistics, social media, signal vs. noise, feature selection, Bayesian approach, mobile network data, Google trends, information extraction, parallization, sensor data, eXplainable AI
+:::
+
+```{r tag_mobile, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Microsim")
+```

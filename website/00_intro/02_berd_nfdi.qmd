@@ -1,0 +1,11 @@
+---
+title: "Introducing the Organization"
+---
+
+The association **Nationale Forschungsdateninfrastruktur (NFDI)** is a nationwide initiative in Germany that aims to systematically organize, make accessible, and sustainably preserve research data across disciplines. By providing standards, tools, and services for research data management, the NFDI strengthens open science and ensures that valuable data can be reused in the long term. News and updates about the NFDI initiative can be found on the [NFDI website](https://www.nfdi.de/).
+
+BERD@NFDI is one of the discipline-specific consortia within the NFDI. It focuses on data and research methods from the fields of **Business, Economic, and Related Data (BERD)**. The consortium brings together universities, research institutes, and infrastructure providers to develop community-driven solutions for collecting, managing, and reusing complex and sensitive data in these domains. Further information about BERD@NFDI and its activities is available on the [BERD@NFDI website](https://www.berd-nfdi.de/).
+
+#### BERD Academy {#BERDAcademy}
+
+The **BERD Academy** is the training and education hub of BERD@NFDI. It provides resources, courses, and workshops designed to strengthen competencies in research data management, reproducible science, and modern data analysis methods. The Academy serves both early-career researchers and established scholars, promoting best practices and fostering a culture of openness and collaboration in research. On the [BERD Academy website](https://www.berd-nfdi.de/berd-academy/), you can find information about upcoming events and explore various training opportunities offered by BERD@NFDI.

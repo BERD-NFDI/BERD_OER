@@ -1,0 +1,138 @@
+---
+title: "Deep Learning"
+---
+
+<!-- TODO: add a section on Tasks -->
+
+Deep learning (DL) is a specialised subfield of machine learning that employs neural networks to represent and approximate complex, non-linear relationships in data. DL methods have achieved leading empirical performance on a range of tasks, including pattern recognition, natural language processing, and data generation, and have contributed substantially to recent methodological advances.
+
+#### Introduction {#Introduction-DL}
+
+An introductory course on deep learning is offered by Stanford University and encompasses an introduction to the fundamentals of deep learning, as well as examples of more sophisticated topics, including deep reinforcement learning.
+
+- [Deep Learning - Stanford CS231N - YouTube Playlist](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLSVEhWrZWDHQTBmWZufjxpw3s8sveJtnJ&index=1)
+
+::: {.callout-note icon=false}
+## Further Keywords
+convolutional neural networks (CNN), image classification, loss functions, optimization, training, software, recurrent neural networks (RNN), detection and segmentation, computer vision, generative models, hardware, adverserial training 
+:::
+
+```{r tag_IntroDL, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Intro-DL")
+```
+
+Another introductory course is offered by TUM, providing an overview of deep learning along with a detailed look at model training, optimization methods, and the use of non-linear layers in neural networks.
+
+- [Introduction to Deep Learning (I2DL) - Slides](https://www.3dunderstanding.org/i2dl-w22/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+ML basics, linear regression, maximum likelihood, neural networks, computational graphs, optimization, backpropagation, scaling optimization, stochastic gradient descent (SGD), training, CNNs, RNN, transformers, advanced DL 
+:::
+
+```{r tag_IntroDLTUM, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Intro-DL-TUM")
+```
+
+#### Methods {#Methods-DL}  
+
+Deep learning methods are built around the concept of artificial neural networks, which are trained using optimization techniques such as gradient descent. Core components include **loss functions**, which measure the difference between predictions and intended outcomes, and **optimization** algorithms, such as stochastic gradient descent (SGD) and Adam, which update network parameters. **Regularization** techniques, including dropout and weight decay, help prevent overfitting, while **training strategies**, such as batch normalization and learning rate schedules, support more efficient and robust learning.
+
+Hyperparameter tuning is an essential part of training deep learning models efficiently. For practical guidance, see:
+
+- [Tune: Scalable Hyperparameter Tuning - Slides](https://docs.ray.io/en/latest/tune/index.html)
+- [Tune: Scalable Hyperparameter Tuning - Code Examples](https://optuna.org/#code_examples)
+
+::: {.callout-note icon=false}
+## Further Keywords
+ray tune, search space, search algorithm, scheduler, tuner, trials, function API, class API, random search, grid search, Bayesian optimization, Bandit optimization, tree-parzen estimators, gradient-free optimization, optuna search algorithms, median stopping rule, ASHA, Population Based Training (PBT) 
+:::
+
+```{r tag_Hyperparam, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Hyperparam")
+```
+
+Understanding and applying effective training strategies, including learning rate schedules and batch normalization, is crucial for model performance. For hands-on examples using PyTorch, see:
+
+- [Guide to Pytorch Learning Rate Scheduling](https://www.kaggle.com/code/isbhargav/guide-to-pytorch-learning-rate-scheduling)
+
+::: {.callout-note icon=false}
+## Further Keywords
+lambda, multiplicative, step, MultiStep, exponential, cosine annealing, cyclic, OneCycle, cosine annealing with warm restarts
+:::
+
+```{r tag_PyTorchLearningRate, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("PyTorchLearningRate")
+```
+
+For a broader overview of deep learning in Python, including an introduction to PyTorch with tutorials and practical exercises, see the [Deep Learning with Python](../04_code/03_python.qmd#DLwithPython) coding section.
+
+#### Architectures {#Architectures-DL}
+
+Deep learning architectures define how neural networks are structured to process different types of data. **Convolutional Neural Networks (CNNs)** are specialized for spatial data such as images, while **Recurrent Neural Networks (RNNs)** handle sequential data, including text and time series. **Transformers** use self-attention mechanisms to model long-range dependencies in sequences and represent the current state-of-the-art for many NLP and sequence tasks. **Autoencoders** are unsupervised models commonly used for dimensionality reduction, learning meaningful representations, and detecting anomalies. 
+
+This application provides a technical demo of a CNN using the MNIST dataset, a widely used benchmark of handwritten digits. Users can draw their own digits and observe how the network processes them. The source code and related publication are also available:
+
+- [An Interactive Node-Link Visualization of Convolutional Neural Networks](https://adamharley.com/nn_vis/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+CNN, MNIST, visualization, filters, feature maps, 3D fully-connected network, 2D, nodes, bottom layer, hidden layer, output layer, convolutional layer, flattening 
+:::
+
+```{r tag_VisualCNN, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("VisualCNN")
+```
+
+The following lecture-style video covers the Transformer architecture and its applications and is best for those familiar with neural networks and embeddings.
+
+- [Introduction to the Transformer Architecture - YouTube Video](https://www.youtube.com/watch?v=EixI6t5oif0)
+
+::: {.callout-note icon=false}
+## Further Keywords
+computer vision, NLP, reinforcement learning, speech, translation, graphs, attention, tokenization, embeddings, positional encoding, multi-headed self-attention, point-wise MLP, GeLU, layer normalization, encoder, decoder, masked self-attention, generation, cross attention, feedforward, compute budget heuristics, ExaFLOPs, GPU, mixture of experts, ViT, convolution-augmented transformer, decision transformer
+:::
+
+```{r tag_Intro-Transformer, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Intro-Transformer")
+```
+
+More on Transformers can be found in the [NLP](02_nlp.qmd#LLMs) chapter.
+
+#### Model Classes {#ModelClasses-DL}
+
+Beyond general architectures, deep learning includes several specialized model classes that address specific goals. **Generative Adversarial Networks (GANs)** learn to generate new data by creating a competition between a generator and a discriminator. **Variational Autoencoders (VAEs)** extend standard autoencoders probabilistically, modeling a latent variable distribution and optimizing a variational lower bound to enable generative modeling. Recently, **diffusion models** have gained popularity as generative models that iteratively refine noisy data into structured outputs.
+
+For a deeper dive into diffusion models, see:  
+
+- [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+Markov chain, random noise, latent variable, Gaussian noise, forward process, Langevin dynamics, reverse process, Bayes' rule, parametrization, training loss, noise-conditioned score networks (NCSN), classifier guided diffusion, classifier-free guidance, sampling steps, progressive distillation, DDPM, DDIM, consistency models, latent variable space, CLIP, U-Net, Transformer, ControlNet
+:::
+
+```{r tag_Diffusion, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Diffusion")
+```
+
+Laplace Redux provides a practical library for applying Laplace approximations in neural networks, whether for entire networks, subnetworks, or just the last layer. The package enables posterior approximations, marginal-likelihood estimation, and posterior predictive computations, and includes multiple example scenarios. Implementing Laplace approximations from scratch is difficult due to the Hessian computations, so this library offers a straightforward way to experiment with these techniques in code.
+
+- [Laplace Redux - Effortless Bayesian Deep Learning](https://aleximmer.github.io/Laplace/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+torch, marginal likelihood, laplace on LLMs, serialization, backend, regression, calibration, GP inference, huggingface LLMs, reward modeling, API
+:::
+
+```{r tag_LaplaceRedux, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("LaplaceRedux")
+```

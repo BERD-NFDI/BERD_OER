@@ -1,0 +1,11 @@
+---
+title: "Platforms"
+---
+
+Platforms for sharing code and data are essential for reproducible and transparent research. They allow researchers to collaborate efficiently, track changes to code and datasets, manage versions, and make their work accessible to the wider community. By centralizing resources, these platforms help reduce errors, facilitate reuse, and ensure that analyses can be validated and extended by others.
+
+### GitHub and GitLab {#git}
+GitHub and GitLab are widely used platforms for hosting and collaborating on code and data projects. They provide version control through Git, allowing teams to track changes, manage branches, and coordinate contributions. In addition to code management, both platforms support issue tracking, documentation, and continuous integration, making them powerful tools for collaborative and reproducible research workflows.
+
+### Google Colab {#GoogleColab}
+Google Colab is an online platform for running Jupyter notebooks in the cloud. It allows researchers to write, execute, and share code without needing to install software locally, providing access to computational resources like GPUs and easy collaboration through shared notebooks. An examplary Jupyter Notebook in Google Colab, using a BERD model, can be found within the course material <a href='https://colab.research.google.com/drive/115BsrFH6wFSOzQFQqkKwsF0twA_bezSQ?usp=sharing'>Turning PDFs into Research Data</a> - for details on the course see the section on [Data Wrangling for PDFs](../01_data_management/01_wrangling.qmd#PDFs).

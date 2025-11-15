@@ -1,0 +1,7 @@
+---
+title: "Open Science"
+---
+
+<!-- TO DO: add section on pre-registration -->
+
+Open science promotes transparency, accessibility, and collaboration in research by making data, code, and publications freely available. By sharing resources and methods openly, researchers can accelerate knowledge creation, enable reproducibility, and foster a more inclusive and collaborative scientific community.

@@ -1,0 +1,84 @@
+project:
+  type: website
+  resources: 
+    - tags.yaml
+    - _footer.html
+
+website:
+  title: "BERD OER Finder"
+  search: 
+    location: navbar
+    type: textbox
+  # reader-mode: true
+  navbar: 
+    search: true
+    background: light
+    border: true
+  sidebar:
+    # title: "BERD Academy Materials"
+    logo: images/BERD_NFDI_logo.png
+    # logo-href: 00_intro/02_berd_nfdi.qmd
+    style: "docked"
+    background: light
+    # search: true
+    collapse-level: 1
+    contents:
+      - section: "Welcome Page"
+        contents:
+          - file: index.qmd
+            text: "How To"
+          - file: 00_intro/02_berd_nfdi.qmd
+            text: "BERD@NFDI"
+      - section: "Data Management"
+        contents:
+          - file: 01_data_management/00_data_intro.qmd
+            text: "Data Types"
+          - file: 01_data_management/01_wrangling.qmd
+            text: "Data Wrangling"
+      - section: "Statistics"
+        contents:
+          - file: 02_statistics/00_stats_intro.qmd
+            text: "Introduction"
+          #- 02_statistics/01_descriptive.qmd
+          #- 02_statistics/02_inferential.qmd
+          #- 02_statistics/03_regression.qmd
+          #- 02_statistics/04_exp_design.qmd 
+          #- 02_statistics/05_pitfalls.qmd
+      - section: "Machine Learning"
+        contents: 
+          - file: 03_ml/00_ml_intro.qmd
+            text: "Introduction"
+          - 03_ml/01_dl.qmd
+          - file: 03_ml/02_nlp.qmd
+            text: "NLP"
+          - file: 03_ml/03_trustworthy.qmd
+            text: "Trustworthy ML"
+      - section: "Computational Tools"
+        contents:
+          - 04_code/02_R.qmd
+          - 04_code/03_python.qmd
+          - file: 04_code/00_tools.qmd
+            text: "Tools"
+          - 04_code/01_platforms.qmd
+      - section: "Research Practices"
+        contents:
+          - file: 05_reproducibility/00_repr_intro.qmd
+            text: "Reproducibility"
+          - 05_reproducibility/03_open.qmd
+  # page-footer: 
+  #   left: "BERD Academy: berd-academy@stat.uni-muenchen.de"
+  #   border: true
+  #   background: light
+
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    include-after-body: _footer.html
+
+
+

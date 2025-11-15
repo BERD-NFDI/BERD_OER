@@ -1,0 +1,78 @@
+---
+title: "Machine Learning"
+---
+
+Machine Learning (ML) focuses on developing algorithms and models that allow computers to learn patterns from data and make predictions or decisions without being explicitly programmed. It spans a wide range of techniques, from traditional statistical methods to modern deep learning approaches, and is applied in domains such as natural language processing ([NLP](02_nlp.qmd)) and computer vision (CV). ML enables the extraction of insights from large and complex datasets, supporting data-driven decision-making across disciplines.
+
+### Learning Paradigms {#Learning-Paradigms}
+Machine learning can be organized into a variety of learning paradigms, which describe different ways in which models interact with data and potential feedback.
+
+In **Supervised Learning**, the model is trained on a labeled dataset, where traditionally each input data point is associated with a corresponding output label. The goal is to learn a mapping from inputs to outputs, enabling the model to make accurate predictions on new, unseen data. Common supervised learning tasks include classification (e.g., spam detection) and regression (e.g., predicting house prices). For a discussion of the assumption of a single ground truth label in the context of NLP, see the section on [label variation](02_nlp.qmd#Label-Variation).
+
+**Unsupervised Learning** involves training models on unlabeled data, where the goal is to discover underlying patterns, structures, or relationships within the data. Common unsupervised learning tasks include clustering (e.g., customer segmentation) and dimensionality reduction (e.g., principal component analysis).
+
+An open and free introductory course on (supervised) machine learning can be found on the [I2ML Course Website](https://slds-lmu.github.io/i2ml/) from the [Statistical Learning and Data Science group](https://www.slds.stat.uni-muenchen.de/) at LMU Munich. The course is constructed as self-contained as possible and enables self-study through lecture videos, PDF slides, cheatsheets, quizzes, exercises (with solutions), and notebooks.
+
+- [I2ML - GitHub Course Page](https://slds-lmu.github.io/i2ml/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+classification, k-NN, trees, random forests, bagging, neural networks, hyperparameter tuning, train-validation-test-split, advanced risk minimization, multiclass classification, information theory, curse of dimensionality, regularization, SVM, boosting, Gaussian Processes, imbalanced learning, multitarget learning, online learning, feature selection, sklearn, mlr3
+:::
+
+```{r tag_IntroML, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Intro-ML")
+```
+
+In addition to supervised and unsupervised approaches, **Self-supervised Learning** leverages automatically generated labels from the data itself, allowing models to learn useful representations without requiring costly manual annotation.
+
+- [Self-supervised Learning: Generative or Contrastive - Paper](https://arxiv.org/pdf/2006.08218.pdf)
+
+::: {.callout-note icon=false}
+## Further Keywords
+auto-regressive, flow-based, auto-encoding, hybrid generative, mutual information, adverserial, GAN, data augmentation, pretext task, BYOL, SimCLR, MoCo, graph learning
+:::
+
+```{r tag_SelfSupervised, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("Self-Supervised")
+```
+
+#### Reinforcement Learning {#RL}
+**Reinforcement Learning** is a paradigm where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on its actions, and the goal is to learn a policy that maximizes cumulative rewards over time. Reinforcement learning is commonly used in applications such as game playing (e.g., AlphaGo) and robotics.
+
+- [Reinforcement Learning for Business, Economics, and Social Sciences - GitHub Repository](https://github.com/BERD-NFDI/BERD-Reinforcement-Learning)
+- [Reinforcement Learning for Business, Economics, and Social Sciences - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/reinforcement-learning-2025/)
+
+
+::: {.callout-note icon=false}
+## Further Keywords
+adaptive experimental designs, bandits, multi-armed, exploration vs. exploitation, regret, reward, stylized data structure, greedy policy, epsilon-greedy, upper confidence bound, uncertainty, Thompson sampling, Bayesian learning, inference with batched bandits
+:::
+
+
+```{r tag_RL, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("RL")
+```
+
+#### Active Learning {#AL}
+**Active Learning (AL)** is a machine learning approach that aims to maximize model performance while minimizing the amount of labeled data required. Instead of labeling an entire dataset upfront, the algorithm iteratively identifies the most informative or uncertain examples and queries an expert for labels. This strategy is especially useful in domains where labeling is expensive, time-consuming, or requires specialized knowledge, such as medical diagnosis or linguistic annotation. By focusing effort on the most valuable data points, active learning can significantly improve efficiency and accelerate model training without sacrificing accuracy.
+
+#### Automated Machine Learning {#AutoML}
+**Automated Machine Learning (AutoML)** refers to the process of automating the end-to-end workflow of applying machine learning to real-world problems. This includes tasks such as data preprocessing, feature selection, model selection, hyperparameter tuning, and model evaluation. The goal of AutoML is to make machine learning more accessible to non-experts and to improve the efficiency and effectiveness of the model development process.
+
+<!-- - [AutoML - Automated Machine Learning - Course Information & Registration Page](https://ki-campus.org/courses/automl-luh2021)
+- [AutoML - Automated Machine Learning](https://ki-campus.org/courses/automl-luh2021)
+
+::: {.callout-note icon=false}
+## Further Keywords
+R, Python, hyperparameter optimization, bayesian optimization, evolutionary algorithms, neural architecture search, multi-fidelity optimization, gradient-based optimization, meta-learning
+:::
+
+```{r tag_AutoML, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("AutoML")
+``` -->
+

@@ -1,0 +1,18 @@
+---
+title: "Reproducibility"
+---
+
+Reproducibility ensures that research results can be independently verified and trusted. By carefully documenting methods, managing code and data, and using consistent workflows, researchers make it possible for others, or themselves in the future, to replicate analyses and validate findings.
+
+- [Make your research reproducible - a hands-on course - GitHub Repository](https://github.com/BERD-NFDI/BERD-reproducible-research-course)
+- [Make your research reproducible - a hands-on course - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/reproducibility-2025/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+FAIR and reproducible research, team projects, organization, version control with Git, stable computing environments, automation, publication platforms, licensing, open science, R, Python, publishing
+:::
+
+```{r tag_ReproHandsOn, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("ReproHandsOn")
+```

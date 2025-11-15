@@ -1,0 +1,38 @@
+---
+title: "Trustworthy Machine Learning"
+---
+
+As machine learning systems are increasingly used to inform decisions in science, business, and society, trustworthiness becomes a central concern. A trustworthy model is not only accurate but also reliable, transparent, and fair - it provides predictions that users can understand and act upon with confidence. Building such systems involves assessing their **uncertainty**, improving their **explainability**, and ensuring their **interpretability**. These aspects help identify when to trust a model’s output, when to question it, and how to make machine learning a responsible tool for real-world applications.
+
+### Uncertainty Quantification {#UQ}
+**Uncertainty Quantification (UQ)** involves techniques to measure and express the uncertainty in model predictions. This is crucial in high-stakes applications where decisions based on model outputs can have significant consequences. One key aspect of UQ is distinguishing between different kinds of uncertainty, such as aleatoric and epistemic, which helps practitioners make more informed decisions. More information on this distinction can be found below:
+
+- [Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Presentation](https://www.gdsd.statistik.uni-muenchen.de/2021/gdsd_huellermeier.pdf)
+- [Aleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Paper](https://link.springer.com/article/10.1007/s10994-021-05946-3)
+
+::: {.callout-note icon=false}
+## Further Keywords
+supervised learning, predictive uncertainty, induction principle, learning algorithm, probabilistic predictors, training data, hypothesis space, empirical risk, risk minimizer, sources of uncertainty, Bayes predictor, reducible vs irreducible, ensemble learning, Bayesian agents, mutual information 
+:::
+
+```{r tag_UQ, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("UQ")
+```
+
+
+### Explainability {#XAI}
+
+**Explainable Artificial Intelligence (XAI)** focuses on developing methods that make the behavior of machine learning models understandable to humans. This is particularly important for complex models like deep neural networks, which are often seen as "black boxes." XAI techniques aim to provide insights into how models make decisions, which features are most influential, and how changes in input data affect outputs. This transparency is essential for building trust, ensuring accountability, and facilitating regulatory compliance in AI applications.
+
+- [Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](https://arxiv.org/abs/1910.10045)
+
+::: {.callout-note icon=false}
+## Further Keywords
+post-hoc explanations, feature importance, saliency maps, decision rules, local vs. global explanations, model transparency
+:::
+
+```{r tag_XAI, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("XAI")
+```

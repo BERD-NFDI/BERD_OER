@@ -1,0 +1,40 @@
+---
+title: "Tools for Software & Data Management"
+---
+
+Efficient management of software, code, and research data is essential for reliable and reproducible research. Using the right tools helps organize workflows, document analyses, track changes, and share data effectively, making research more transparent, collaborative, and easier to validate.
+
+### Statistical Practice {#Tools}
+
+Applying sound statistical workflows ensures that analyses are accurate, interpretable, and reproducible. These practices, including effective data handling, visualization, and leveraging coding tools, can be further developed in the BERD Academy course on statistical practice.
+
+<!-- 
+- [Making Data Work: Tools for Better Statistical Practice - BERD Academy Course Information & Registration Page](https://www.berd-nfdi.de/berd-academy/making-data-work-tools-for-better-statistical-practice/)
+- [The missing semester of you CS education](https://missing.csail.mit.edu/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+thinkCausal, RAINER, OneTutor, xmap, visualization of multiverse analysis, decision database, OCR recommender, FAIRplexica, RESQUE
+:::
+
+```{r tag_StatTools, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+# render_tags("StatTools")
+``` 
+-->
+
+#### AI Tools in Research {#AITools}
+A variety of AI tools are available to support research activities, including data analysis, visualization, and interpretation. These tools, many of which are generative as LLMs, can help researchers to automate repetitive tasks, identify patterns in data, and generate new insights.
+
+- [How to get the best of AI tools in Research - GitHub Repository](https://github.com/BERD-NFDI/AI-Tools-in-Research-BERD)
+- [How to get the best of AI tools in Research - BERD Academy Information & Registration Page](https://www.berd-nfdi.de/berd-academy/ai-tools-research-2025/)
+
+::: {.callout-note icon=false}
+## Further Keywords
+Large Language Models (LLMs), Generative Artificial Intelligence (AI), prompting techniques, literature review & management, data collection & analysis, communicating results, ethical considerations, semantic tools, visual search tools, data protection, biases
+:::
+
+```{r tag_AITools, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
+source("../utils.R")
+render_tags("AITools")
+```
