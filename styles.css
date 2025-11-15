@@ -1,0 +1,47 @@
+/* styles.scss */
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid var(--bs-border-color);
+  box-shadow: none;
+}
+
+/* Tags */
+.tag {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .tag-type {
+    background-color: #0077cc; /* blue */
+  }
+
+  .tag-name {
+    background-color: #86cafa; /* blue */
+  }
+  
+  .tag-data {
+    background-color: #00aa77; /* green */
+  }
+
+  .tag-year {
+    background-color: #aca4a4; /* grey */
+  }
+
+  .tag-material {
+    background-color: #333; /* black */
+  }
+  
+/* Keyword Boxes */
+.callout-note,
+.callout-note .callout-header {
+  background-color: #fefefe !important; /* same grey for body + header */
+  border-left-color: #d2d0d0 !important;
+}
+  
