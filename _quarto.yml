@@ -15,6 +15,9 @@ website:
     search: true
     background: light
     border: true
+    right:
+    - text: "BERD Academy 🎓"
+      href: https://www.berd-nfdi.de/berd-academy/
   sidebar:
     # title: "BERD Academy Materials"
     logo: images/BERD_NFDI_logo.png
@@ -24,43 +27,121 @@ website:
     # search: true
     collapse-level: 1
     contents:
+      # - text: "🎓 BERD Academy"
+      #  href: https://www.berd-nfdi.de/berd-academy/ 
       - section: "Welcome Page"
         contents:
           - file: index.qmd
             text: "How To"
-          - file: 00_intro/02_berd_nfdi.qmd
-            text: "BERD@NFDI"
+          - section: "BERD@NFDI"
+            href: 00_intro/02_berd_nfdi.qmd
+            contents:
+              - text: "BERD Academy"
+                href: 00_intro/02_berd_nfdi.qmd#BERDAcademy
       - section: "Data Management"
         contents:
-          - file: 01_data_management/00_data_intro.qmd
-            text: "Data Types"
+          - section: "Data Types"
+            href: 01_data_management/00_data_intro.qmd
+            contents:
+              - text: "Tabular"
+                href: 01_data_management/00_data_intro.qmd#tabular
+              - text: "Text"
+                href: 01_data_management/00_data_intro.qmd#text
+              - text: "Visual"
+                href: 01_data_management/00_data_intro.qmd#visual
+              - text: "Time Series"
+                href: 01_data_management/00_data_intro.qmd#longitudinal
+              - text: "Network Data"
+                href: 01_data_management/00_data_intro.qmd#network_data
+              - text: "Mobile Phone Data"
+                href: 01_data_management/00_data_intro.qmd#mobile_data
           - file: 01_data_management/01_wrangling.qmd
             text: "Data Wrangling"
       - section: "Statistics"
         contents:
-          - file: 02_statistics/00_stats_intro.qmd
-            text: "Introduction"
-          #- 02_statistics/01_descriptive.qmd
-          #- 02_statistics/02_inferential.qmd
-          #- 02_statistics/03_regression.qmd
-          #- 02_statistics/04_exp_design.qmd 
-          #- 02_statistics/05_pitfalls.qmd
+          - section: "Introduction"
+            href: 02_statistics/00_stats_intro.qmd
+            contents:
+              - text: "Descriptive Statistics"
+                href: 02_statistics/00_stats_intro.qmd#descriptives
+              - text: "Statistical Inference"
+                href: 02_statistics/00_stats_intro.qmd#inference
+              - text: "Regression Analysis"
+                href: 02_statistics/00_stats_intro.qmd#regression
+              - text: "Experimental Design"
+                href: 02_statistics/00_stats_intro.qmd#expdesign
+              - text: "Common Pitfalls in Statistical Analysis"
+                href: 02_statistics/00_stats_intro.qmd#pitfalls
+              - text: "Official Statistics"
+                href: 02_statistics/00_stats_intro.qmd#official_stats
       - section: "Machine Learning"
-        contents: 
-          - file: 03_ml/00_ml_intro.qmd
-            text: "Introduction"
-          - 03_ml/01_dl.qmd
-          - file: 03_ml/02_nlp.qmd
-            text: "NLP"
-          - file: 03_ml/03_trustworthy.qmd
-            text: "Trustworthy ML"
+        contents:
+          - section: "Introduction"
+            href: 03_ml/00_ml_intro.qmd
+            contents:
+              # - text: "Learning Paradigms"
+              #   href: 03_ml/00_ml_intro.qmd#Learning-Paradigms
+              - text: "Reinforcement Learning"
+                href: 03_ml/00_ml_intro.qmd#RL
+              - text: "Active Learning"
+                href: 03_ml/00_ml_intro.qmd#AL
+              - text: "Automated Machine Learning"
+                href: 03_ml/00_ml_intro.qmd#AutoML
+          - section: "Deep Learning"
+            href: 03_ml/01_dl.qmd
+            contents:
+              # - text: "Introduction"
+              #   href: 03_ml/01_dl.qmd#Introduction-DL
+              - text: "Methods"
+                href: 03_ml/01_dl.qmd#Methods-DL
+              - text: "Architectures"
+                href: 03_ml/01_dl.qmd#Architectures-DL
+              - text: "Model Classes"
+                href: 03_ml/01_dl.qmd#ModelClasses-DL
+          - section: "NLP"
+            href: 03_ml/02_nlp.qmd
+            contents:
+              - text: "Large Language Models"
+                href: 03_ml/02_nlp.qmd#LLMs
+              - text: "Hugging Face"
+                href: 03_ml/02_nlp.qmd#HuggingFace
+              - text: "Label Variation"
+                href: 03_ml/02_nlp.qmd#Label-Variation
+          - section: "Trustworthy ML"
+            href: 03_ml/03_trustworthy.qmd
+            contents:
+              - text: "Uncertainty Quantification"
+                href: 03_ml/03_trustworthy.qmd#UQ
+              - text: "Explainability"
+                href: 03_ml/03_trustworthy.qmd#XAI
       - section: "Computational Tools"
         contents:
-          - 04_code/02_R.qmd
-          - 04_code/03_python.qmd
-          - file: 04_code/00_tools.qmd
-            text: "Tools"
-          - 04_code/01_platforms.qmd
+          - section: "R"
+            href: 04_code/02_R.qmd
+            contents:
+              - text: "Data Science with R"
+                href: 04_code/02_R.qmd#DSwithR
+          - section: "Python"
+            href: 04_code/03_python.qmd
+            contents:
+              - text: "Data Science with Python"
+                href: 04_code/03_python.qmd#DSwithPython
+              - text: "Deep Learning with Python"
+                href: 04_code/03_python.qmd#DLwithPython
+          - section: "Tools"
+            href: 04_code/00_tools.qmd
+            contents:
+              - text: "Statistical Practice"
+                href: 04_code/00_tools.qmd#Tools
+              - text: "AI Tools in Research"
+                href: 04_code/00_tools.qmd#AITools
+          - section: "Platforms"
+            href: 04_code/01_platforms.qmd
+            contents:
+              - text: "GitHub and GitLab"
+                href: 04_code/01_platforms.qmd#git
+              - text: "Google Colab"
+                href: 04_code/01_platforms.qmd#GoogleColab
       - section: "Research Practices"
         contents:
           - file: 05_reproducibility/00_repr_intro.qmd

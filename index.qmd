@@ -18,6 +18,12 @@ All resources on this site are tagged with keywords indicating, if applicable, t
 
 If you’re looking to go beyond self-study, join our interactive learning sessions! Discover our [upcoming workshops and events](https://www.berd-nfdi.de/berd-academy/) hosted by the BERD Academy, or learn more about [the BERD@NFDI consortium and the NFDI initiative](00_intro/02_berd_nfdi.qmd).
 
+::: {style="text-align: center; margin: 2em 0;"}
+  [![](images/BERD_Academy_logo.png){width=300px}](https://www.berd-nfdi.de/berd-academy/)
+  
+  **[Explore upcoming workshops & events →](https://www.berd-nfdi.de/berd-academy/)**
+:::
+
 ### Searching for content?
 
 Not sure what you’re looking for yet? Below, you’ll find a list of events, data types, and material types available on this site. Use these tags to browse or to guide your search.
