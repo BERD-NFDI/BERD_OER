@@ -11,7 +11,7 @@ In **Supervised Learning**, the model is trained on a labeled dataset, where tra
 
 **Unsupervised Learning** involves training models on unlabeled data, where the goal is to discover underlying patterns, structures, or relationships within the data. Common unsupervised learning tasks include clustering (e.g., customer segmentation) and dimensionality reduction (e.g., principal component analysis).
 
-An open and free introductory course on (supervised) machine learning can be found on the [I2ML Course Website](https://slds-lmu.github.io/i2ml/) from the [Statistical Learning and Data Science group](https://www.slds.stat.uni-muenchen.de/) at LMU Munich. The course is constructed as self-contained as possible and enables self-study through lecture videos, PDF slides, cheatsheets, quizzes, exercises (with solutions), and notebooks.
+<!-- An open and free introductory course on (supervised) machine learning can be found on the [I2ML Course Website](https://slds-lmu.github.io/i2ml/) from the [Statistical Learning and Data Science group](https://www.slds.stat.uni-muenchen.de/) at LMU Munich. The course is constructed as self-contained as possible and enables self-study through lecture videos, PDF slides, cheatsheets, quizzes, exercises (with solutions), and notebooks.
 
 - [I2ML - GitHub Course Page](https://slds-lmu.github.io/i2ml/)
 
@@ -24,10 +24,11 @@ classification, k-NN, trees, random forests, bagging, neural networks, hyperpara
 source("../utils.R")
 render_tags("Intro-ML")
 ```
+-->
 
 In addition to supervised and unsupervised approaches, **Self-supervised Learning** leverages automatically generated labels from the data itself, allowing models to learn useful representations without requiring costly manual annotation.
 
-- [Self-supervised Learning: Generative or Contrastive - Paper](https://arxiv.org/pdf/2006.08218.pdf)
+<!-- - [Self-supervised Learning: Generative or Contrastive - Paper](https://arxiv.org/pdf/2006.08218.pdf)
 
 ::: {.callout-note icon=false}
 ## Further Keywords
@@ -38,6 +39,7 @@ auto-regressive, flow-based, auto-encoding, hybrid generative, mutual informatio
 source("../utils.R")
 render_tags("Self-Supervised")
 ```
+-->
 
 #### Reinforcement Learning {#RL}
 **Reinforcement Learning** is a paradigm where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on its actions, and the goal is to learn a policy that maximizes cumulative rewards over time. Reinforcement learning is commonly used in applications such as game playing (e.g., AlphaGo) and robotics.
@@ -74,5 +76,6 @@ R, Python, hyperparameter optimization, bayesian optimization, evolutionary algo
 ```{r tag_AutoML, results = 'asis', echo = FALSE, warning = FALSE, message = FALSE}
 source("../utils.R")
 render_tags("AutoML")
-``` -->
+```
+-->
 

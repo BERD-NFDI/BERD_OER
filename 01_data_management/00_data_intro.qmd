@@ -16,7 +16,7 @@ Text data includes any data in written language, ranging from short phrases to f
 
 Visual data includes images, videos, and other forms of visual representations that convey information through patterns, shapes, or spatial structure. This can encompass a wide range of content such as medical imagery, satellite views, or rendered scenes. Analyzing visual data often involves tasks like classification, segmentation, or object detection, using approaches from computer vision and image analysis.
 
-- [Common Limitations of Image Processing Metrics: A Picture Story](https://arxiv.org/abs/2104.05642)
+<!-- - [Common Limitations of Image Processing Metrics: A Picture Story](https://arxiv.org/abs/2104.05642)
 
 ::: {.callout-note icon=false}
 ## Further Keywords
@@ -27,6 +27,7 @@ image-level classification, semantic segmentation, object detection, instance se
 source("../utils.R")
 render_tags("ImageData")
 ```
+-->
 
 #### Time Series {#longitudinal}
 
