@@ -1,8 +1,8 @@
 project:
   type: website
   output-dir: _site
-  resources: 
-    - tags.yaml
+  pre-render: update_locations.R
+  resources:
     - _footer.html
 
 website:

@@ -8,6 +8,8 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit the updated materials.csv
 
     steps:
       # Step 1: Check out the repository
@@ -27,7 +29,7 @@ jobs:
       # Step 2.4: Install R packages required
       - name: Install R packages
         run: |
-          Rscript -e "install.packages(c('yaml', 'tibble', 'dplyr', 'purrr', 'DT'))"
+          Rscript -e "install.packages(c('tibble', 'dplyr', 'DT'))"
 
       # Step 2.5: Install Quarto
       - name: Install Quarto
@@ -36,6 +38,8 @@ jobs:
           version: '1.5.47'  # or a specific version like '1.3.335'
 
       # Step 3: Render the website
+      # (the pre-render step update_locations.R fills the location column
+      # of materials.csv)
       - name: Render Quarto site
         run: quarto render
 
@@ -48,4 +52,15 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
 
-
+      # Step 5: Commit the updated location column of materials.csv
+      - name: Commit updated materials.csv
+        run: |
+          if ! git diff --quiet -- materials.csv; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add materials.csv
+            git commit -m "Update material locations [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "materials.csv unchanged"
+          fi

@@ -1,11 +1,5 @@
 ---
 title: "Welcome!"
-# listing: 
-#     type: table
-#     sort: "date"
-#     contents:
-#         - tags.yaml
-#     filter-ui: true
 ---
 
 Welcome to our open educational resources (OER) hub! This site brings together materials from various sources to support learning, teaching, and exploring data-driven methods. Whether you’re joining for the first time or coming back to revisit a topic, we’re glad you’re here!
@@ -29,26 +23,24 @@ If you’re looking to go beyond self-study, join our interactive learning sessi
 Not sure what you’re looking for yet? Below, you’ll find a list of events, data types, and material types available on this site. Use these tags to browse or to guide your search.
 
 ```{r tag_list, results = 'asis', echo = FALSE, message = FALSE, warning = FALSE}
-library(yaml)
 library(tibble)
 library(dplyr)
-library(purrr)
 
-tags_data <- read_yaml("tags.yaml")
+source("utils.R")
+
+# only materials that are embedded on a page
+materials <- read_materials()
+materials <- materials[materials$`location (auto)` != "", ]
 
 extract_unique <- function(field) {
-  tags_data %>%
-    map(field) %>%
-    flatten_chr() %>%
-    unique() %>%
-    discard(~ .x == "")
+  unique(split_values(materials[[field]]))
 }
 
-type_tags <- extract_unique("Type")
-name_tags <- extract_unique("Name")
-data_tags <- extract_unique("Data")
-year_tags <- extract_unique("Year")
-material_tags <- extract_unique("Material")
+type_tags <- extract_unique("type")
+name_tags <- extract_unique("name")
+data_tags <- extract_unique("data")
+year_tags <- extract_unique("year")
+material_tags <- extract_unique("material")
 
 #type_links <- list(
 #  "Turning PDFs into Research Data" = "https://www.berd-nfdi.de/berd-academy/pdfs-2025/",
@@ -97,22 +89,27 @@ cat(make_spans(material_tags, "material"), "\n\n")
 ## Tags Overview
 
 ```{r new_tags_table, results = 'asis', echo = FALSE, message = FALSE, warning = FALSE}
-library(yaml)
 library(dplyr)
 library(tibble)
 library(DT)
 
-tags <- read_yaml("tags.yaml")
+source("utils.R")
 
-tags_df <- bind_rows(lapply(tags, function(x) {
+# only materials that are embedded on a page
+materials <- read_materials()
+materials <- materials[materials$`location (auto)` != "", ]
+
+tags_df <- bind_rows(lapply(seq_len(nrow(materials)), function(i) {
+  x <- materials[i, ]
+  links <- lapply(split_values(x$`location (auto)`), location_links)
   tibble(
-    Topic = x$file %||% NA,
-    Section = x$Section %||% NA,
-    Data = paste(x$Data, collapse = ", "),
-    Type = paste(x$Type, collapse = ", "),
-    Name = paste(x$Name, collapse = ", "),
-    Year = paste(x$Year, collapse = ", "),
-    Material = paste(x$Material, collapse = ", ")
+    Topic = paste(unique(sapply(links, `[[`, "topic")), collapse = "<br>"),
+    Section = paste(sapply(links, `[[`, "section"), collapse = "<br>"),
+    Data = paste(split_values(x$data), collapse = ", "),
+    Type = paste(split_values(x$type), collapse = ", "),
+    Name = paste(split_values(x$name), collapse = ", "),
+    Year = paste(split_values(x$year), collapse = ", "),
+    Material = paste(split_values(x$material), collapse = ", ")
   )
 }))
 
