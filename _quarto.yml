@@ -6,7 +6,7 @@ project:
     - _footer.html
 
 website:
-  title: "BERD OER Finder"
+  title: "BERD Educational Resources Finder"
   search: 
     location: navbar
     type: textbox

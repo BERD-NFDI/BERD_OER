@@ -1,4 +1,4 @@
-# BERD Academy Open Educational Resources
+# BERD Educational Resources Finder
 
 Link to Website: https://berd-nfdi.github.io/BERD_OER/
 

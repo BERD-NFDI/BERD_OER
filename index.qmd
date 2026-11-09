@@ -2,7 +2,7 @@
 title: "Welcome!"
 ---
 
-Welcome to our open educational resources (OER) hub! This site brings together materials from various sources to support learning, teaching, and exploring data-driven methods. Whether you’re joining for the first time or coming back to revisit a topic, we’re glad you’re here!
+Welcome to our educational resources hub! This site brings together materials from BERD Academy courses and workshops to support learning, teaching, and exploring data-driven methods. Whether you’re joining for the first time or coming back to revisit a topic, we’re glad you’re here!
 
 ## How To
 
