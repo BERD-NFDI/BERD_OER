@@ -1,53 +1,5 @@
 [
   {
-    "objectID": "04_code/03_python.html",
-    "href": "04_code/03_python.html",
-    "title": "Python",
-    "section": "",
-    "text": "Python is a high-level, general-purpose programming language widely used in data analysis, scientific computing, and software development. Its readability, flexibility, and extensive ecosystem make it a standard tool for implementing computational methods and workflows across disciplines.",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Computational Tools",
-      "Python"
-    ]
-  },
-  {
-    "objectID": "04_code/02_R.html",
-    "href": "04_code/02_R.html",
-    "title": "R",
-    "section": "",
-    "text": "R is a programming language and environment designed for statistical computing and data analysis. It provides a wide range of tools for data manipulation, visualization, and modelling, and is widely used in research and applied statistics. Its extensive package ecosystem and reproducible workflow support make R a central tool for implementing and communicating statistical methods.",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Computational Tools",
-      "R"
-    ]
-  },
-  {
-    "objectID": "05_reproducibility/00_repr_intro.html",
-    "href": "05_reproducibility/00_repr_intro.html",
-    "title": "Reproducibility",
-    "section": "",
-    "text": "Reproducibility ensures that research results can be independently verified and trusted. By carefully documenting methods, managing code and data, and using consistent workflows, researchers make it possible for others, or themselves in the future, to replicate analyses and validate findings.\n\nMake your research reproducible - a hands-on course - GitHub Repository\nMake your research reproducible - a hands-on course - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nFAIR and reproducible research, team projects, organization, version control with Git, stable computing environments, automation, publication platforms, licensing, open science, R, Python, publishing\n\n\n# BERD Academy module # Make your research reproducible – a hands-on course # 2023 # 2024 # 2025 # GitHub repository # quarto markdown",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Research Practices",
-      "Reproducibility"
-    ]
-  },
-  {
-    "objectID": "01_data_management/00_data_intro.html",
-    "href": "01_data_management/00_data_intro.html",
-    "title": "Overview of Data Types",
-    "section": "",
-    "text": "Data is a foundation for understanding complex systems, making informed decisions, and driving innovation. Recognizing the type of data you’re working with is crucial. It determines how you can summarize it, visualize it, and extract meaningful insights. By thinking carefully about data types, we can avoid misleading conclusions, choose the right analytical tools, and unlock the full potential of the information at hand.\n\nTabular\nTabular data is structured in rows and columns, much like a spreadsheet or a database table. Each row typically represents an observation, and each column represents a variable or feature. This format is one of the most common in data analysis and is used in tasks like regression, classification, and exploratory data analysis. Examples include survey results, financial records, and experiment logs.\n\n\nText\nText data includes any data in written language, ranging from short phrases to full documents. It can come from diverse sources such as interviews, survey responses, articles, or social media posts. In some cases, text may need to be extracted from other formats, such as PDFs, with more information on data wrangling available in the section on PDFs. Analyzing text often involves preprocessing steps like tokenization, and tasks may include sentiment analysis, topic modeling, or text classification, for which more detail can be found on the NLP page.\n\n\nVisual\nVisual data includes images, videos, and other forms of visual representations that convey information through patterns, shapes, or spatial structure. This can encompass a wide range of content such as medical imagery, satellite views, or rendered scenes. Analyzing visual data often involves tasks like classification, segmentation, or object detection, using approaches from computer vision and image analysis.\n\nCommon Limitations of Image Processing Metrics: A Picture Story\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nimage-level classification, semantic segmentation, object detection, instance segmentation, pitfalls, counting metrics, multi-threshold metrics, distance-based metrics, MCC, Cohen’s Kappa, sensitivity, specificity, AUROC, positive predictive value, DSC, IoU, Hausdorff distance, calibration metrics, FROC, mismatch, high class imbalance\n\n\n# visual # paper # Common Limitations of Image Processing Metrics: A Picture Story # 2023 # paper\n\n\nTime Series\nTime series data consists of observations recorded at regular (or irregular) time intervals. It captures how variables evolve over time, making it particularly useful in domains like finance, health monitoring, environmental science, or sensor data. Key methods include forecasting, anomaly detection, and trend analysis.\n\n\nNetwork Data\nNetwork data represents relationships or interactions between entities, often visualized as graphs with nodes (entities) and edges (connections). This type of data is prevalent in social networks, transportation systems, biological networks, and communication networks. Analyzing network data involves techniques like centrality measures, network visualization and modeling of the network.\n\nA Connected World: Data Analysis for Real-World Network Data - GitHub Repository\nA Connected World: Data Analysis for Real-World Network Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nvisualization of networks, Fruchterman-Reingold algorithm, graph density, node degree, degree centrality, modelling networks, exponential random graph models (ERGM), latent variable models (LVM)\n\n\n# network # BERD Academy module # A Connected World: Data Analysis for Real-World Network Data # 2023 # slides # R script\n\n\nMobile Phone Data\nMobile phone data encompasses information collected from mobile devices, including call records, text messages, app usage, and location data. This type of data is often used in studies related to human behavior, social networks, and mobility patterns. Analyzing mobile phone data requires careful consideration of privacy and ethical issues.\n\nData Challenge: Mobile Phone Data - GitHub Repository\nData Challenge: Mobile Phone Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmobile network data, official statistics, gravity models, anonymization, commuting patterns, public transport planning, legal framework, infrastructure quality, welfare effects\n\n\n# mobile # BERD Academy module # Data Challenge: Mobile Phone Data # 2024 # slides\nOnce we recognize the type of data we’re working with, the next step is data wrangling — preparing and transforming data so it’s ready for analysis.",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Data Management",
-      "Data Types"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
@@ -64,7 +16,7 @@
     "href": "index.html#how-to",
     "title": "Welcome!",
     "section": "How To",
-    "text": "How To\nThis site is designed for easy navigation across a growing collection of learning materials. You can browse by topic, explore materials from specific events, or filter content by data type or format. Whether you’re preparing for a workshop, reviewing past content, or looking for examples and code, this site has you covered.\nAll resources on this site are tagged with keywords indicating, if applicable, the event they belong to, the data type they cover, and the material format. Use these tags to filter or combine search queries. You can also use the search bar at the top right to find specific topics or keywords.\nIf you’re looking to go beyond self-study, join our interactive learning sessions! Discover our upcoming workshops and events hosted by the BERD Academy, or learn more about the BERD@NFDI consortium and the NFDI initiative.\n\n\nExplore upcoming workshops & events →\n\n\nSearching for content?\nNot sure what you’re looking for yet? Below, you’ll find a list of events, data types, and material types available on this site. Use these tags to browse or to guide your search.\n\nData Types\n# visual # network # mobile # tabular # text # images # graphs # audio\nData Types Overview\n\n\nResource Types\n# paper # BERD Academy module # LMU lecture # self-paced # Stanford lecture # TUM lecture # talk # MIT lecture # Python library\n\n\nMaterial Types\n# paper # slides # R script # jupyter notebook # quarto markdown # videos # page # GitHub repository",
+    "text": "How To\nThis site is designed for easy navigation across a growing collection of learning materials. You can browse by topic, explore materials from specific events, or filter content by data type or format. Whether you’re preparing for a workshop, reviewing past content, or looking for examples and code, this site has you covered.\nAll resources on this site are tagged with keywords indicating, if applicable, the event they belong to, the data type they cover, and the material format. Use these tags to filter or combine search queries. You can also use the search bar at the top right to find specific topics or keywords.\nIf you’re looking to go beyond self-study, join our interactive learning sessions! Discover our upcoming workshops and events hosted by the BERD Academy, or learn more about the BERD@NFDI consortium and the NFDI initiative.\n\n\nExplore upcoming workshops & events →\n\n\nSearching for content?\nNot sure what you’re looking for yet? Below, you’ll find a list of events, data types, and material types available on this site. Use these tags to browse or to guide your search.\n\nData Types\n# visual # network # mobile # tabular # text # images # graphs # audio\nData Types Overview\n\n\nResource Types\n# paper # BERD Academy module # LMU lecture # self-paced # Stanford lecture # TUM lecture # talk\n\n\nMaterial Types\n# paper # slides # R script # jupyter notebook # quarto markdown # videos # page # GitHub repository",
     "crumbs": [
       "BERD Academy 🎓",
       "Welcome Page",
@@ -96,49 +48,6 @@
     ]
   },
   {
-    "objectID": "03_ml/03_trustworthy.html",
-    "href": "03_ml/03_trustworthy.html",
-    "title": "Trustworthy Machine Learning",
-    "section": "",
-    "text": "As machine learning systems are increasingly used to inform decisions in science, business, and society, trustworthiness becomes a central concern. A trustworthy model is not only accurate but also reliable, transparent, and fair - it provides predictions that users can understand and act upon with confidence. Building such systems involves assessing their uncertainty, improving their explainability, and ensuring their interpretability. These aspects help identify when to trust a model’s output, when to question it, and how to make machine learning a responsible tool for real-world applications.\n\nUncertainty Quantification\nUncertainty Quantification (UQ) involves techniques to measure and express the uncertainty in model predictions. This is crucial in high-stakes applications where decisions based on model outputs can have significant consequences. One key aspect of UQ is distinguishing between different kinds of uncertainty, such as aleatoric and epistemic, which helps practitioners make more informed decisions. More information on this distinction can be found below:\n\nAleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Presentation\nAleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Paper\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nsupervised learning, predictive uncertainty, induction principle, learning algorithm, probabilistic predictors, training data, hypothesis space, empirical risk, risk minimizer, sources of uncertainty, Bayes predictor, reducible vs irreducible, ensemble learning, Bayesian agents, mutual information\n\n\n# talk # Aleatoric and Epistemic Uncertainty in Machine Learning # 2021 # slides # paper\n\n\nExplainability\nExplainable Artificial Intelligence (XAI) focuses on developing methods that make the behavior of machine learning models understandable to humans. This is particularly important for complex models like deep neural networks, which are often seen as “black boxes.” XAI techniques aim to provide insights into how models make decisions, which features are most influential, and how changes in input data affect outputs. This transparency is essential for building trust, ensuring accountability, and facilitating regulatory compliance in AI applications.\n\nExplainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\npost-hoc explanations, feature importance, saliency maps, decision rules, local vs. global explanations, model transparency\n\n\n# paper # Explainable Artificial Intelligence (XAI) # 2019 # paper",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Machine Learning",
-      "Trustworthy ML"
-    ]
-  },
-  {
-    "objectID": "02_statistics/00_stats_intro.html",
-    "href": "02_statistics/00_stats_intro.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Statistics and Machine Learning are closely connected fields that both aim to learn from data. While statistics traditionally focuses on understanding uncertainty, testing hypotheses, and explaining relationships, machine learning emphasizes prediction, pattern recognition, and handling large, complex datasets. Many machine learning methods build directly on statistical ideas, such as regression, classification, and probability models. At the same time, statistical thinking helps ensure that machine learning results are robust, interpretable, and not driven by random noise. Together, these perspectives form a complementary toolkit for modern data science.\n\nDescriptive Statistics\nDescriptive statistics summarize and present data in a meaningful way. They include measures such as averages, percentages, or visualizations like histograms and boxplots. By condensing large amounts of information into clear numbers and graphics, descriptive statistics help us understand the main patterns and characteristics of data.\n\n\nStatistical Inference\nWhile descriptives describe the data at hand, statistical inference goes a step further: it allows us to draw conclusions about larger populations based on samples. Methods such as confidence intervals and hypothesis tests help us quantify uncertainty and assess whether observed patterns are likely due to chance or reflect underlying relationships.\n\n\nRegression Analysis\nRegression is a powerful tool for studying relationships between variables. It can be used to explain outcomes, make predictions, and identify important influencing factors. From simple linear regression to more complex models, regression provides a framework for quantifying associations and controlling for multiple variables at once.\n\n\nExperimental Design\nWell-designed experiments are crucial for drawing reliable conclusions. By carefully planning how data are collected - for example, through randomization, control groups, and replication - researchers can reduce bias and increase the validity of their findings. Good experimental design ensures that causal effects can be identified, not just correlations.\n\n\nCommon Pitfalls in Statistical Analysis\nStatistical analyses are powerful, but they can also be misused. Common pitfalls include confusing correlation with causation, overinterpreting small sample sizes, p-hacking, or ignoring the assumptions behind statistical methods. Recognizing these challenges is an important step toward conducting and interpreting research responsibly.\n\n\nOfficial Statistics\n\nOfficial statistics are produced by government agencies and international organizations to provide reliable, standardized data on various aspects of society, economy, and environment. They play a key role in informing public policy, research, and public understanding. Examples include census data, labor market statistics, and health indicators.\n\nMicrosimulation & Machine Learning with Official Statistics Data - GitHub Repository\nMicrosimulation & Machine Learning with Official Statistics Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmicrosimulation, official statistics, static ageing techniques, dynamic ageing, MikroSim, Big Data, primary data, secondary data, consumer price index, web based statistics, social media, signal vs. noise, feature selection, Bayesian approach, mobile network data, Google trends, information extraction, parallization, sensor data, eXplainable AI\n\n\n# BERD Academy module # Microsimulation & Machine Learning with Official Statistics Data # 2023 # slides # quarto markdown",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Statistics",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "02_statistics/01_descriptive.html",
-    "href": "02_statistics/01_descriptive.html",
-    "title": "Descriptive",
-    "section": "",
-    "text": "Tags:"
-  },
-  {
-    "objectID": "03_ml/02_nlp.html",
-    "href": "03_ml/02_nlp.html",
-    "title": "Natural Language Processing",
-    "section": "",
-    "text": "Natural Language Processing (NLP) is a field of computer science that focuses on enabling computers to understand, interpret, and generate human language. NLP methods combine linguistics, statistics, and machine learning to analyze text and speech data, enabling tasks such as text classification, sentiment analysis, machine translation, and question answering. Modern NLP often relies on deep learning models, such as transformers, which can capture complex patterns in language and context. By bridging human communication and computational systems, NLP supports applications in information retrieval, virtual assistants, and automated content generation.\n\nIntroduction to NLP - Stanford CS224N - YouTube Playlist\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nhuman language, word meaning, word2vec algorithm, word2vec objective function gradients, optimization basics, word vectors, PyTorch, dependency parsing, machine translation, question answering, recurrent networks, attention, transformers, distributional semantics, chain rule\n\n\n# text # Stanford lecture # self-paced # NLP with Deep Learning (Stanford CS224N) # 2021 # videos\nDeep Learning has become a cornerstone of modern NLP, enabling significant advancements in the field. Deep learning models have demonstrated remarkable capabilities in understanding and generating human language. Techniques such as word embeddings, recurrent neural networks (RNNs), and transformers have revolutionized NLP tasks by allowing models to capture semantic relationships, context, and long-range dependencies in text data.\n\nDeep Learning for NLP (DL4NLP) - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmachine learning basics, NLP tasks, neural probabilistic language models, word embeddings, deep learning basics, attention, ELMo, tokenization, transformer, encoder, decoder, long sequences, BERT, pre-training, fine-tuning, transfer learning, model distillation, text-to-text, GPT, ethics, cost, decoding strategies, large language models (LLMs), chain-of-thought prompting, reinforcement learning form human feedback (RLHF), scaling laws, chinchilla, multilinguality\n\n\n# text # LMU lecture # self-paced # Deep Learning for NLP # 2022 # slides\n\nLarge Language Models\nAs also introduced in the above resources, Large Language Models (LLMs) are advanced NLP models that are trained on vast amounts of text data to understand and generate human-like language. They utilize deep learning architectures, particularly transformers, to capture complex linguistic patterns and context. LLMs, such as the GPT and BERT families, can perform a wide range of language tasks, including text generation, translation, summarization, and question answering. Their ability to generalize from large datasets allows them to produce coherent and contextually relevant responses, making them valuable for applications in chatbots, virtual assistants, content creation, and more.\n\nUnderstanding and developing large language models - Stanford CS324 - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\ncapabilities, harms, data, security, legality, modeling, training, architecture, parallelism, scaling laws, adaptation\n\n\n# text # Stanford lecture # Understanding and developing large language models (Stanford CS324) # 2022 # page\nTransformers are a type of deep learning architecture that has revolutionized natural language processing (NLP) by enabling models to handle sequences of text in parallel and capture long-range dependencies. A central component of their success is the attention mechanism (Vaswani et al., 2017), which allows the model to capture how each word relates to others in the sequence, improving context understanding beyond sequential processing. Transformers underpin many state-of-the-art NLP models, including BERT, GPT, and T5, and have also been adapted for applications beyond NLP, such as computer vision and reinforcement learning.\n\nThe Illustrated Transformer - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nencoder, decoder, feed forward neural network, self-attention, tensors, embeddings, query, key, value, softmax, matrix calculation, multi-head attention, positional encoding, residuals, layer-normalization, softmax, loss function\n\n\n# text # self-paced # The Illustrated Transformer # 2018 # page # videos\n\n\nHugging Face\nHugging Face is a popular open-source platform that provides tools and libraries for building, training, and deploying NLP models. It offers a wide range of pre-trained models, datasets, and an easy-to-use interface for fine-tuning models on specific tasks.\n\nNLP in the huggingface ecosystem - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\ntranformers, LLMs, datasets tokenizers, fine-tuning pretrained models, building and sharing demos, Python, PyTorch, TensorFlow, pipeline, model hub\n\n\n# text # self-paced # NLP in the huggingface ecosystem # 2025 # page # videos\n\n\n\nLabel Variation\n(Human) label variation (Plank, 2022) refers to the phenomenon where multiple annotators assign different labels to the same instance. Such variation arises not only from subjective interpretations or ambiguous cases, but also from factors like annotator expertise, background knowledge, and individual biases. In NLP and machine learning, label variation is a critical consideration because standard evaluation metrics often assume a single “correct” or “true” label, whereas human disagreement can reflect multiple valid perspectives or genuine uncertainty. Accounting for this variation, through approaches like probabilistic labels, disagreement-aware learning, or modeling annotator behavior, can improve model robustness and provide more reliable predictions that align with the diversity of human judgments.",
-    "crumbs": [
-      "BERD Academy 🎓",
-      "Machine Learning",
-      "NLP"
-    ]
-  },
-  {
     "objectID": "03_ml/01_dl.html",
     "href": "03_ml/01_dl.html",
     "title": "Deep Learning",
@@ -163,15 +72,39 @@
     ]
   },
   {
-    "objectID": "05_reproducibility/03_open.html",
-    "href": "05_reproducibility/03_open.html",
-    "title": "Open Science",
+    "objectID": "05_reproducibility/00_repr_intro.html",
+    "href": "05_reproducibility/00_repr_intro.html",
+    "title": "Reproducibility",
     "section": "",
-    "text": "Open science promotes transparency, accessibility, and collaboration in research by making data, code, and publications freely available. By sharing resources and methods openly, researchers can accelerate knowledge creation, enable reproducibility, and foster a more inclusive and collaborative scientific community.",
+    "text": "Reproducibility ensures that research results can be independently verified and trusted. By carefully documenting methods, managing code and data, and using consistent workflows, researchers make it possible for others, or themselves in the future, to replicate analyses and validate findings.\n\nMake your research reproducible - a hands-on course - GitHub Repository\nMake your research reproducible - a hands-on course - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nFAIR and reproducible research, team projects, organization, version control with Git, stable computing environments, automation, publication platforms, licensing, open science, R, Python, publishing\n\n\n# BERD Academy module # Make your research reproducible – a hands-on course # 2023 # 2024 # 2025 # GitHub repository # quarto markdown",
     "crumbs": [
       "BERD Academy 🎓",
       "Research Practices",
-      "Open Science"
+      "Reproducibility"
+    ]
+  },
+  {
+    "objectID": "04_code/03_python.html",
+    "href": "04_code/03_python.html",
+    "title": "Python",
+    "section": "",
+    "text": "Python is a high-level, general-purpose programming language widely used in data analysis, scientific computing, and software development. Its readability, flexibility, and extensive ecosystem make it a standard tool for implementing computational methods and workflows across disciplines.",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Computational Tools",
+      "Python"
+    ]
+  },
+  {
+    "objectID": "04_code/02_R.html",
+    "href": "04_code/02_R.html",
+    "title": "R",
+    "section": "",
+    "text": "R is a programming language and environment designed for statistical computing and data analysis. It provides a wide range of tools for data manipulation, visualization, and modelling, and is widely used in research and applied statistics. Its extensive package ecosystem and reproducible workflow support make R a central tool for implementing and communicating statistical methods.",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Computational Tools",
+      "R"
     ]
   },
   {
@@ -184,6 +117,25 @@
       "BERD Academy 🎓",
       "Welcome Page",
       "BERD@NFDI"
+    ]
+  },
+  {
+    "objectID": "02_statistics/01_descriptive.html",
+    "href": "02_statistics/01_descriptive.html",
+    "title": "Descriptive",
+    "section": "",
+    "text": "Tags:"
+  },
+  {
+    "objectID": "02_statistics/00_stats_intro.html",
+    "href": "02_statistics/00_stats_intro.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Statistics and Machine Learning are closely connected fields that both aim to learn from data. While statistics traditionally focuses on understanding uncertainty, testing hypotheses, and explaining relationships, machine learning emphasizes prediction, pattern recognition, and handling large, complex datasets. Many machine learning methods build directly on statistical ideas, such as regression, classification, and probability models. At the same time, statistical thinking helps ensure that machine learning results are robust, interpretable, and not driven by random noise. Together, these perspectives form a complementary toolkit for modern data science.\n\nDescriptive Statistics\nDescriptive statistics summarize and present data in a meaningful way. They include measures such as averages, percentages, or visualizations like histograms and boxplots. By condensing large amounts of information into clear numbers and graphics, descriptive statistics help us understand the main patterns and characteristics of data.\n\n\nStatistical Inference\nWhile descriptives describe the data at hand, statistical inference goes a step further: it allows us to draw conclusions about larger populations based on samples. Methods such as confidence intervals and hypothesis tests help us quantify uncertainty and assess whether observed patterns are likely due to chance or reflect underlying relationships.\n\n\nRegression Analysis\nRegression is a powerful tool for studying relationships between variables. It can be used to explain outcomes, make predictions, and identify important influencing factors. From simple linear regression to more complex models, regression provides a framework for quantifying associations and controlling for multiple variables at once.\n\n\nExperimental Design\nWell-designed experiments are crucial for drawing reliable conclusions. By carefully planning how data are collected - for example, through randomization, control groups, and replication - researchers can reduce bias and increase the validity of their findings. Good experimental design ensures that causal effects can be identified, not just correlations.\n\n\nCommon Pitfalls in Statistical Analysis\nStatistical analyses are powerful, but they can also be misused. Common pitfalls include confusing correlation with causation, overinterpreting small sample sizes, p-hacking, or ignoring the assumptions behind statistical methods. Recognizing these challenges is an important step toward conducting and interpreting research responsibly.\n\n\nOfficial Statistics\n\nOfficial statistics are produced by government agencies and international organizations to provide reliable, standardized data on various aspects of society, economy, and environment. They play a key role in informing public policy, research, and public understanding. Examples include census data, labor market statistics, and health indicators.\n\nMicrosimulation & Machine Learning with Official Statistics Data - GitHub Repository\nMicrosimulation & Machine Learning with Official Statistics Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmicrosimulation, official statistics, static ageing techniques, dynamic ageing, MikroSim, Big Data, primary data, secondary data, consumer price index, web based statistics, social media, signal vs. noise, feature selection, Bayesian approach, mobile network data, Google trends, information extraction, parallization, sensor data, eXplainable AI\n\n\n# BERD Academy module # Microsimulation & Machine Learning with Official Statistics Data # 2023 # slides # quarto markdown",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Statistics",
+      "Introduction"
     ]
   },
   {
@@ -208,6 +160,54 @@
       "BERD Academy 🎓",
       "Computational Tools",
       "Platforms"
+    ]
+  },
+  {
+    "objectID": "05_reproducibility/03_open.html",
+    "href": "05_reproducibility/03_open.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "Open science promotes transparency, accessibility, and collaboration in research by making data, code, and publications freely available. By sharing resources and methods openly, researchers can accelerate knowledge creation, enable reproducibility, and foster a more inclusive and collaborative scientific community.",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Research Practices",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "01_data_management/00_data_intro.html",
+    "href": "01_data_management/00_data_intro.html",
+    "title": "Overview of Data Types",
+    "section": "",
+    "text": "Data is a foundation for understanding complex systems, making informed decisions, and driving innovation. Recognizing the type of data you’re working with is crucial. It determines how you can summarize it, visualize it, and extract meaningful insights. By thinking carefully about data types, we can avoid misleading conclusions, choose the right analytical tools, and unlock the full potential of the information at hand.\n\nTabular\nTabular data is structured in rows and columns, much like a spreadsheet or a database table. Each row typically represents an observation, and each column represents a variable or feature. This format is one of the most common in data analysis and is used in tasks like regression, classification, and exploratory data analysis. Examples include survey results, financial records, and experiment logs.\n\n\nText\nText data includes any data in written language, ranging from short phrases to full documents. It can come from diverse sources such as interviews, survey responses, articles, or social media posts. In some cases, text may need to be extracted from other formats, such as PDFs, with more information on data wrangling available in the section on PDFs. Analyzing text often involves preprocessing steps like tokenization, and tasks may include sentiment analysis, topic modeling, or text classification, for which more detail can be found on the NLP page.\n\n\nVisual\nVisual data includes images, videos, and other forms of visual representations that convey information through patterns, shapes, or spatial structure. This can encompass a wide range of content such as medical imagery, satellite views, or rendered scenes. Analyzing visual data often involves tasks like classification, segmentation, or object detection, using approaches from computer vision and image analysis.\n\nCommon Limitations of Image Processing Metrics: A Picture Story\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nimage-level classification, semantic segmentation, object detection, instance segmentation, pitfalls, counting metrics, multi-threshold metrics, distance-based metrics, MCC, Cohen’s Kappa, sensitivity, specificity, AUROC, positive predictive value, DSC, IoU, Hausdorff distance, calibration metrics, FROC, mismatch, high class imbalance\n\n\n# visual # paper # Common Limitations of Image Processing Metrics: A Picture Story # 2023 # paper\n\n\nTime Series\nTime series data consists of observations recorded at regular (or irregular) time intervals. It captures how variables evolve over time, making it particularly useful in domains like finance, health monitoring, environmental science, or sensor data. Key methods include forecasting, anomaly detection, and trend analysis.\n\n\nNetwork Data\nNetwork data represents relationships or interactions between entities, often visualized as graphs with nodes (entities) and edges (connections). This type of data is prevalent in social networks, transportation systems, biological networks, and communication networks. Analyzing network data involves techniques like centrality measures, network visualization and modeling of the network.\n\nA Connected World: Data Analysis for Real-World Network Data - GitHub Repository\nA Connected World: Data Analysis for Real-World Network Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nvisualization of networks, Fruchterman-Reingold algorithm, graph density, node degree, degree centrality, modelling networks, exponential random graph models (ERGM), latent variable models (LVM)\n\n\n# network # BERD Academy module # A Connected World: Data Analysis for Real-World Network Data # 2023 # slides # R script\n\n\nMobile Phone Data\nMobile phone data encompasses information collected from mobile devices, including call records, text messages, app usage, and location data. This type of data is often used in studies related to human behavior, social networks, and mobility patterns. Analyzing mobile phone data requires careful consideration of privacy and ethical issues.\n\nData Challenge: Mobile Phone Data - GitHub Repository\nData Challenge: Mobile Phone Data - BERD Academy Information & Registration Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmobile network data, official statistics, gravity models, anonymization, commuting patterns, public transport planning, legal framework, infrastructure quality, welfare effects\n\n\n# mobile # BERD Academy module # Data Challenge: Mobile Phone Data # 2024 # slides\nOnce we recognize the type of data we’re working with, the next step is data wrangling — preparing and transforming data so it’s ready for analysis.",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Data Management",
+      "Data Types"
+    ]
+  },
+  {
+    "objectID": "03_ml/03_trustworthy.html",
+    "href": "03_ml/03_trustworthy.html",
+    "title": "Trustworthy Machine Learning",
+    "section": "",
+    "text": "As machine learning systems are increasingly used to inform decisions in science, business, and society, trustworthiness becomes a central concern. A trustworthy model is not only accurate but also reliable, transparent, and fair - it provides predictions that users can understand and act upon with confidence. Building such systems involves assessing their uncertainty, improving their explainability, and ensuring their interpretability. These aspects help identify when to trust a model’s output, when to question it, and how to make machine learning a responsible tool for real-world applications.\n\nUncertainty Quantification\nUncertainty Quantification (UQ) involves techniques to measure and express the uncertainty in model predictions. This is crucial in high-stakes applications where decisions based on model outputs can have significant consequences. One key aspect of UQ is distinguishing between different kinds of uncertainty, such as aleatoric and epistemic, which helps practitioners make more informed decisions. More information on this distinction can be found below:\n\nAleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Presentation\nAleatoric and epistemic uncertainty in machine learning: an introduction to concepts and methods - Paper\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nsupervised learning, predictive uncertainty, induction principle, learning algorithm, probabilistic predictors, training data, hypothesis space, empirical risk, risk minimizer, sources of uncertainty, Bayes predictor, reducible vs irreducible, ensemble learning, Bayesian agents, mutual information\n\n\n# talk # Aleatoric and Epistemic Uncertainty in Machine Learning # 2021 # slides # paper\n\n\nExplainability\nExplainable Artificial Intelligence (XAI) focuses on developing methods that make the behavior of machine learning models understandable to humans. This is particularly important for complex models like deep neural networks, which are often seen as “black boxes.” XAI techniques aim to provide insights into how models make decisions, which features are most influential, and how changes in input data affect outputs. This transparency is essential for building trust, ensuring accountability, and facilitating regulatory compliance in AI applications.\n\nExplainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\npost-hoc explanations, feature importance, saliency maps, decision rules, local vs. global explanations, model transparency\n\n\n# paper # Explainable Artificial Intelligence (XAI) # 2019 # paper",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Machine Learning",
+      "Trustworthy ML"
+    ]
+  },
+  {
+    "objectID": "03_ml/02_nlp.html",
+    "href": "03_ml/02_nlp.html",
+    "title": "Natural Language Processing",
+    "section": "",
+    "text": "Natural Language Processing (NLP) is a field of computer science that focuses on enabling computers to understand, interpret, and generate human language. NLP methods combine linguistics, statistics, and machine learning to analyze text and speech data, enabling tasks such as text classification, sentiment analysis, machine translation, and question answering. Modern NLP often relies on deep learning models, such as transformers, which can capture complex patterns in language and context. By bridging human communication and computational systems, NLP supports applications in information retrieval, virtual assistants, and automated content generation.\n\nIntroduction to NLP - Stanford CS224N - YouTube Playlist\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nhuman language, word meaning, word2vec algorithm, word2vec objective function gradients, optimization basics, word vectors, PyTorch, dependency parsing, machine translation, question answering, recurrent networks, attention, transformers, distributional semantics, chain rule\n\n\n# text # Stanford lecture # self-paced # NLP with Deep Learning (Stanford CS224N) # 2021 # videos\nDeep Learning has become a cornerstone of modern NLP, enabling significant advancements in the field. Deep learning models have demonstrated remarkable capabilities in understanding and generating human language. Techniques such as word embeddings, recurrent neural networks (RNNs), and transformers have revolutionized NLP tasks by allowing models to capture semantic relationships, context, and long-range dependencies in text data.\n\nDeep Learning for NLP (DL4NLP) - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nmachine learning basics, NLP tasks, neural probabilistic language models, word embeddings, deep learning basics, attention, ELMo, tokenization, transformer, encoder, decoder, long sequences, BERT, pre-training, fine-tuning, transfer learning, model distillation, text-to-text, GPT, ethics, cost, decoding strategies, large language models (LLMs), chain-of-thought prompting, reinforcement learning form human feedback (RLHF), scaling laws, chinchilla, multilinguality\n\n\n# text # LMU lecture # self-paced # Deep Learning for NLP # 2022 # slides\n\nLarge Language Models\nAs also introduced in the above resources, Large Language Models (LLMs) are advanced NLP models that are trained on vast amounts of text data to understand and generate human-like language. They utilize deep learning architectures, particularly transformers, to capture complex linguistic patterns and context. LLMs, such as the GPT and BERT families, can perform a wide range of language tasks, including text generation, translation, summarization, and question answering. Their ability to generalize from large datasets allows them to produce coherent and contextually relevant responses, making them valuable for applications in chatbots, virtual assistants, content creation, and more.\n\nUnderstanding and developing large language models - Stanford CS324 - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\ncapabilities, harms, data, security, legality, modeling, training, architecture, parallelism, scaling laws, adaptation\n\n\n# text # Stanford lecture # Understanding and developing large language models (Stanford CS324) # 2022 # page\nTransformers are a type of deep learning architecture that has revolutionized natural language processing (NLP) by enabling models to handle sequences of text in parallel and capture long-range dependencies. A central component of their success is the attention mechanism (Vaswani et al., 2017), which allows the model to capture how each word relates to others in the sequence, improving context understanding beyond sequential processing. Transformers underpin many state-of-the-art NLP models, including BERT, GPT, and T5, and have also been adapted for applications beyond NLP, such as computer vision and reinforcement learning.\n\nThe Illustrated Transformer - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\nencoder, decoder, feed forward neural network, self-attention, tensors, embeddings, query, key, value, softmax, matrix calculation, multi-head attention, positional encoding, residuals, layer-normalization, softmax, loss function\n\n\n# text # self-paced # The Illustrated Transformer # 2018 # page # videos\n\n\nHugging Face\nHugging Face is a popular open-source platform that provides tools and libraries for building, training, and deploying NLP models. It offers a wide range of pre-trained models, datasets, and an easy-to-use interface for fine-tuning models on specific tasks.\n\nNLP in the huggingface ecosystem - Page\n\n\n\n\n\n\n\nFurther Keywords\n\n\n\ntranformers, LLMs, datasets tokenizers, fine-tuning pretrained models, building and sharing demos, Python, PyTorch, TensorFlow, pipeline, model hub\n\n\n# text # self-paced # NLP in the huggingface ecosystem # 2025 # page # videos\n\n\n\nLabel Variation\n(Human) label variation (Plank, 2022) refers to the phenomenon where multiple annotators assign different labels to the same instance. Such variation arises not only from subjective interpretations or ambiguous cases, but also from factors like annotator expertise, background knowledge, and individual biases. In NLP and machine learning, label variation is a critical consideration because standard evaluation metrics often assume a single “correct” or “true” label, whereas human disagreement can reflect multiple valid perspectives or genuine uncertainty. Accounting for this variation, through approaches like probabilistic labels, disagreement-aware learning, or modeling annotator behavior, can improve model robustness and provide more reliable predictions that align with the diversity of human judgments.",
+    "crumbs": [
+      "BERD Academy 🎓",
+      "Machine Learning",
+      "NLP"
     ]
   }
 ]
