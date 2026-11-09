@@ -3,7 +3,6 @@ project:
   output-dir: _site
   pre-render: update_locations.R
   resources:
-    - tags.yaml
     - _footer.html
 
 website:

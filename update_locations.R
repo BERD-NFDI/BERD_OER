@@ -16,6 +16,13 @@ location_col <- "location (auto)"
 materials <- read_materials(csv_file)
 
 # --- Check the table -------------------------------------------------------
+required <- c("ID", "name", "url", "type", "data", "year", "material",
+              "notes", location_col)
+missing_cols <- setdiff(required, names(materials))
+if (length(missing_cols) > 0) {
+  stop("materials.csv: missing columns: ", paste(missing_cols, collapse = ", "),
+       "\nWas the file saved with ';' instead of ',' as separator (e.g. by Excel)?")
+}
 if (any(trimws(materials$ID) == "")) {
   stop("materials.csv: some rows have an empty ID")
 }
